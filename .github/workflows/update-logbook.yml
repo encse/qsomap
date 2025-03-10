@@ -39,5 +39,4 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git add index.adi
-          git commit -m "Updated index.adi [Automated Action]" || echo "No changes to commit"
-          git push main
+          git commit -m "Updated index.adi [Automated Action]" && git push || echo "No changes to commit"
