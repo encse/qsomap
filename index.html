@@ -124,7 +124,8 @@
         }
 
         function parseADIF(adifText) {
-            const lines = adifText.split('<eoh>')[1]?.split('<eor>') || [];
+            const parts = adifText.split('<eoh>')
+            const lines = parts[parts.length-1].split('<eor>');
             lines.forEach(entry => {
                 const latMatch = entry.match(/<lat:[0-9]+>([NS])([0-9]+) ([0-9]+\.[0-9]+)/i);
                 const lonMatch = entry.match(/<lon:[0-9]+>([EW])([0-9]+) ([0-9]+\.[0-9]+)/i);

@@ -1,11 +1,3 @@
-QRZLogbook download for ha7ncs
-    Date: Mon Mar 10 07:01:56 2025
-    Bookid: 416415
-    Records: 185
-    <ADIF_VER:5>3.1.1
-    <PROGRAMID:10>QRZLogbook
-    <PROGRAMVERSION:3>2.0
-    <eoh>
 <app_qrzlog_logid:10>1197763462
 <app_qrzlog_status:1>N
 <band:2>2m
@@ -29,7 +21,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -37,7 +29,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:13>Ivan Bossanyi
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -79,7 +71,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -87,8 +79,8 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
-<name:15>SkultÈti L·szlÛ
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
+<name:15>SkultÔøΩti LÔøΩszlÔøΩ
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
 <qrzcom_qso_upload_date:8>20241220
@@ -98,7 +90,7 @@ QRZLogbook download for ha7ncs
 <qsl_via:10>eQSL,Email
 <qso_date:8>20241220
 <qso_date_off:8>20241220
-<qth:5>PÈcel
+<qth:5>PÔøΩcel
 <rst_sent:2>59
 <station_callsign:6>HA7NCS
 <time_off:4>1905
@@ -130,7 +122,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -138,7 +130,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:13>Josef Damisch
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -180,7 +172,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -188,8 +180,8 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
-<name:11>BatÛ Andr·s
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
+<name:11>BatÔøΩ AndrÔøΩs
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
 <qrzcom_qso_upload_date:8>20241227
@@ -231,7 +223,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -239,7 +231,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>Barakonyi Balint
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -280,7 +272,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -288,7 +280,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Zsoldi Zsolt
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -328,7 +320,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -336,7 +328,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:5> Reka
 <notes:21>s16-on, Levente parja
 <qrzcom_qso_download_date:8>20250310
@@ -381,7 +373,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -389,7 +381,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Laszlo Ashin
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -432,7 +424,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -440,7 +432,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:13>Ferenc Czirok
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -479,7 +471,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -487,7 +479,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:7> Sandor
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -529,7 +521,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -537,7 +529,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:19>Tibor (Tibi) Nemeth
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -580,7 +572,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -588,7 +580,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:13>Josef Damisch
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -629,7 +621,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -637,7 +629,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:18>L√ÅSZL√ì Skult√©ti
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -679,7 +671,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -687,7 +679,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:18>L√ÅSZL√ì Skult√©ti
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -732,7 +724,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:2>FM
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -740,7 +732,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>Attila Kisprumik
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -783,7 +775,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -791,7 +783,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:48>European Capital of Culture (CoC) 2025 Chemnitz 
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -831,7 +823,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -839,7 +831,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:15>GIORGIO CARPINO
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -881,7 +873,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -889,7 +881,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:10>ALBERTO A.
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -928,7 +920,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -936,7 +928,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:19> Tereshenko Igor A.
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -978,7 +970,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -986,7 +978,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:14>ARNAUD BOERSMA
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1029,7 +1021,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1037,7 +1029,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:36>SPECIAL CALL FOR SAINT VALENTINE DAY
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1082,7 +1074,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1090,7 +1082,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>CLAUDIO GIULIANI
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1133,7 +1125,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1141,7 +1133,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:18>Soderis Karpasitis
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1183,7 +1175,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1191,7 +1183,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:8>Jim Bell
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1230,7 +1222,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1238,7 +1230,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
 <qrzcom_qso_upload_date:8>20250214
@@ -1275,7 +1267,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1283,7 +1275,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:21>Nickolay M. Golevskoy
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1325,7 +1317,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1333,7 +1325,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:22>PEDRO POVEDA MORENILLA
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1377,7 +1369,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1385,7 +1377,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>Toni Olmo Tom√†s
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1430,7 +1422,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1438,7 +1430,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Chunyang Liu
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1482,7 +1474,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1490,7 +1482,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:13>Cemile Aƒüaya
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1534,7 +1526,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1542,7 +1534,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Wiktor Opara
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1585,7 +1577,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1593,7 +1585,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>CLAUDIO GIULIANI
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1635,7 +1627,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1643,7 +1635,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:13>Armen Atomyan
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1686,7 +1678,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1694,7 +1686,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>KJELL QVARNSTROM
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1738,7 +1730,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1746,7 +1738,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:21>Tor Helge Hesjadalen 
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1790,7 +1782,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1798,7 +1790,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:15>RAMI SZTERNFELD
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1843,7 +1835,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1851,7 +1843,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:23>Kimonas Nikolaos Milert
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1891,7 +1883,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1899,7 +1891,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:7>Neil N.
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1943,7 +1935,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -1951,7 +1943,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:11>Ketil Olsen
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -1993,7 +1985,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2001,7 +1993,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:27>Bulgarian Club Blagovestnik
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2044,7 +2036,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2052,7 +2044,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:18>ANDY Andrzej JUREK
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2095,7 +2087,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2103,7 +2095,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:24>Urszula A RORBACH-HARVEY
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2147,7 +2139,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2155,7 +2147,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Marcin Jusko
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2198,7 +2190,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2206,7 +2198,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:10>ALBERTO A.
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2243,7 +2235,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2251,7 +2243,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:46>Kosovo Independence Day .Special event station
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2293,7 +2285,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2301,7 +2293,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:11>RTJ MANSELL
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2343,7 +2335,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2351,7 +2343,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:17>Claus-Dieter Kopp
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2394,7 +2386,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2402,7 +2394,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Club Station
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2443,7 +2435,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2451,7 +2443,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:59>The 95th anniversary of the PZK and centennial of the IARU 
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2493,7 +2485,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2501,7 +2493,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:15>Filip M. Stanic
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2541,7 +2533,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2549,7 +2541,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:59>The 95th anniversary of the PZK and centennial of the IARU 
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2593,7 +2585,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2601,7 +2593,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>Fran√ßois BERGEZ
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2645,7 +2637,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2653,7 +2645,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:19>Maurizio C. Formica
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2696,7 +2688,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2704,7 +2696,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:14>Lorenzo Ghitti
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2746,7 +2738,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2754,7 +2746,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:16>Arnaud VIGNELLES
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2798,7 +2790,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2806,7 +2798,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Elvis Horvat
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2848,7 +2840,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2856,7 +2848,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:15>Filip M. Stanic
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2900,7 +2892,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2908,7 +2900,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Paul Stewart
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -2953,7 +2945,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -2961,7 +2953,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:15>Vladimir Zhukov
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3004,7 +2996,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3012,7 +3004,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>Paul Knapton
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3055,7 +3047,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3063,7 +3055,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:13>Roland Kaiser
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3107,7 +3099,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3115,7 +3107,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:26>ALESSANDRO (ALE) CARMONINI
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3158,7 +3150,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3166,7 +3158,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:14>ARNAUD BOERSMA
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3211,7 +3203,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3219,7 +3211,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:28>Borcelik Amator Radyo Kulubu
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3263,7 +3255,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3271,7 +3263,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:11>RTJ MANSELL
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3314,7 +3306,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3322,7 +3314,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:18>SK5SM Club Station
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3365,7 +3357,7 @@ QRZLogbook download for ha7ncs
 <lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3373,7 +3365,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:11>Mike Hunter
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -3418,7 +3410,7 @@ QRZLogbook download for ha7ncs
 <lotw_qslrdate:8>20250221
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
-<my_city:3>…rd
+<my_city:3>ÔøΩrd
 <my_country:7>Hungary
 <my_cq_zone:2>15
 <my_gridsquare:6>JN97mm
@@ -3426,7 +3418,7 @@ QRZLogbook download for ha7ncs
 <my_itu_zone:2>28
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
-<my_name:18>D·vid NÈmeth-csÛka
+<my_name:18>DÔøΩvid NÔøΩmeth-csÔøΩka
 <name:12>TODD A MYERS
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
@@ -9091,7 +9083,7 @@ QRZLogbook download for ha7ncs
 <my_lat:11>N047 31.032
 <my_lon:11>E019 04.336
 <my_name:18>David Nemeth-csoka
-<name:64>√ê¬ú√ê¬∞√ë¬Ä√ê¬∞√ë¬Ç √ê¬•√ë¬É√ë¬Å√ê¬Ω√ë¬É√ë¬Ç√ê¬¥√ê¬∏√ê¬Ω√ê¬æ√ê¬
+<name:64>√ê¬ú√ê¬∞√ë¬Ä√ê¬∞√ë¬Ç √ê¬•√ë¬É√ë¬Å√ê¬Ω√ë¬É√ë¬Ç√ê¬¥√ê¬∏√ê¬Ω√ê¬æ√êÔøΩ
 <qrzcom_qso_download_date:8>20250310
 <qrzcom_qso_download_status:1>Y
 <qrzcom_qso_upload_date:8>20250309
@@ -9357,4 +9349,3 @@ QRZLogbook download for ha7ncs
 <time_off:4>0642
 <time_on:4>0642
 <eor>
-
