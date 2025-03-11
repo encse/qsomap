@@ -9599,3 +9599,307 @@
 <time_on:4>1606
 <tx_pwr:3>100
 <eor>
+
+<app_qrzlog_logid:10>1242379535
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:5>JY4CI
+<cont:2>AS
+<country:6>Jordan
+<cqz:2>20
+<distance:4>2242
+<dxcc:3>342
+<email:16>jy4cia@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.255
+<freq_rx:6>14.255
+<gridsquare:6>KM71vv
+<ituz:2>39
+<lat:11>N031 53.574
+<lon:11>E035 49.543
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250311
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:13>RAFIQ FARMAWI
+<qrzcom_qso_download_date:8>20250311
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250311
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:18>QSL DIRECT TO K2AX
+<qso_date:8>20250311
+<qso_date_off:8>20250311
+<qth:5>AMMAN
+<rst_rcvd:2>56
+<rst_sent:2>58
+<station_callsign:6>HA7NCS
+<time_off:4>0622
+<time_on:4>0622
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242381151
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:6>II8ICN
+<cont:2>EU
+<country:5>Italy
+<distance:3>834
+<dxcc:3>248
+<email:16>iu8ceu@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.117
+<freq_rx:5>7.117
+<gridsquare:6>JN70et
+<lat:11>N040 48.750
+<lon:11>E014 22.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250311
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:51>Italian Navy Coastal Radio Station Maritele Naples 
+<qrzcom_qso_download_date:8>20250311
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250311
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:26>DIRECT OR BEREAU VIA IQ8XS
+<qso_date:8>20250311
+<qso_date_off:8>20250311
+<qth:43>Via IV Novembre, 23 Calvi Risorta -Caserta-
+<rst_rcvd:2>58
+<rst_sent:2>57
+<state:2>IT
+<station_callsign:6>HA7NCS
+<time_off:4>0635
+<time_on:4>0635
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242382128
+<app_qrzlog_status:1>2
+<band:3>40m
+<band_rx:3>40m
+<call:6>IZ8DEP
+<cont:2>EU
+<country:5>Italy
+<cqz:2>15
+<distance:3>715
+<dxcc:3>248
+<email:16>iz8dep@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.175
+<freq_rx:5>7.175
+<gridsquare:6>JN62ks
+<ituz:2>28
+<lat:11>N042 46.756
+<lon:11>E012 53.877
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250311
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:14>ALFREDO SCARPA
+<qrzcom_qso_download_date:8>20250311
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250311
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:11>ONLY DIRECT
+<qso_date:8>20250311
+<qso_date_off:8>20250311
+<qth:16>MARANO DI NAPOLI
+<rst_rcvd:2>58
+<rst_sent:2>58
+<station_callsign:6>HA7NCS
+<time_off:4>0641
+<time_on:4>0641
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242494019
+<app_qrzlog_qsldate:8>20250311
+<app_qrzlog_status:1>C
+<band:3>15m
+<band_rx:3>15m
+<call:6>VA3TAL
+<comment:71>Thank you very much! You are my first contact from Canada! Thanks a lot
+<cont:2>NA
+<country:6>Canada
+<cqz:1>4
+<distance:4>7118
+<dxcc:1>1
+<email:16>va3tal@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>21.22
+<freq_rx:5>21.22
+<gridsquare:6>FN03fu
+<ituz:1>4
+<lat:11>N043 51.998
+<lon:11>W079 32.320
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250311
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:11>Joe Metallo
+<qrzcom_qso_download_date:8>20250311
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250311
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:15>DIRECT ONLY PLS
+<qso_date:8>20250311
+<qso_date_off:8>20250311
+<qth:9>HILLSDALE
+<rst_rcvd:2>53
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1539
+<time_on:4>1539
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242495009
+<app_qrzlog_status:1>N
+<band:3>15m
+<band_rx:3>15m
+<call:5>G3ART
+<comment:152>I'm looking at my notes here. The same thing happens as last time. We start with a strong signal and just disappears. I hope that one day we can talk :D
+<cont:2>EU
+<country:7>England
+<distance:4>1488
+<dxcc:3>223
+<email:28>arthur@arthurwolstenholme.uk
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>21.256
+<freq_rx:6>21.256
+<gridsquare:6>IO92uo
+<iota:4>none
+<ituz:2>27
+<lat:11>N052 36.103
+<lon:11>W000 17.495
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250311
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:19>Arthur Wolstenholme
+<qrzcom_qso_download_date:8>20250311
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250311
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250311
+<qso_date_off:8>20250311
+<qth:12>Peterborough
+<rst_rcvd:2>33
+<rst_sent:2>53
+<station_callsign:6>HA7NCS
+<time_off:4>1543
+<time_on:4>1543
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242501355
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:6>II0IGU
+<cont:2>EU
+<country:5>Italy
+<distance:3>825
+<dxcc:3>248
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.264
+<freq_rx:6>14.264
+<gridsquare:6>JN61tf
+<lat:11>N041 12.556
+<lon:11>E013 35.447
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250311
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:64>SPECIAL CALL for Old Italian Navy Costal Radio Station MARITELE 
+<qrzcom_qso_download_date:8>20250311
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250311
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:26>ONLY DIRECT QSL TO IWØBTN
+<qso_date:8>20250311
+<qso_date_off:8>20250311
+<qth:5>Gaeta
+<station_callsign:6>HA7NCS
+<time_off:4>1615
+<time_on:4>1615
+<tx_pwr:3>100
+<eor>
+
+&RESULT=OK&COUNT=196
