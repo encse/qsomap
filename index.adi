@@ -3385,7 +3385,7 @@
 <eor>
 
 <app_qrzlog_logid:10>1232736619
-<app_qrzlog_qsldate:8>20250221
+<app_qrzlog_qsldate:8>20250312
 <app_qrzlog_status:1>C
 <band:3>10m
 <band_rx:3>10m
@@ -10098,6 +10098,305 @@
 <station_callsign:6>HA7NCS
 <time_off:4>1829
 <time_on:4>1829
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242930498
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:6>II9ICF
+<cont:2>EU
+<country:5>Italy
+<cqz:2>15
+<distance:4>1075
+<dxcc:3>248
+<email:24>info@assoradiomarinai.it
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.262
+<freq_rx:6>14.262
+<gridsquare:6>JM78se
+<iota:6>EU-025
+<ituz:2>28
+<lat:11>N038 11.831
+<lon:11>E015 34.037
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250312
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:64>Special Call of the ex Coastal Radio Station of the Italian Navy
+<qrzcom_qso_download_date:8>20250312
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250312
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:6>IT9MRM
+<qso_date:8>20250312
+<qso_date_off:8>20250312
+<qth:12>Messina (ME)
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1655
+<time_on:4>1655
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242940407
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>AM5VF
+<cont:2>EU
+<country:5>Spain
+<cqz:2>14
+<distance:4>1798
+<dxcc:3>281
+<email:12>urev@urev.es
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.305
+<freq_rx:6>14.305
+<gridsquare:6>IM99tl
+<ituz:2>37
+<lat:11>N039 28.700
+<lon:11>W000 22.600
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250312
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:29>Special Call for Fallas Award
+<qrzcom_qso_download_date:8>20250312
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250312
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:34>QSL Via Bureau or Direct with SASE
+<qso_date:8>20250312
+<qso_date_off:8>20250312
+<qth:49>Unión de Radioaficionados Españoles de Valencia
+<rst_rcvd:2>55
+<rst_sent:2>55
+<station_callsign:6>HA7NCS
+<time_off:4>1707
+<time_on:4>1707
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242943171
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>9A2CT
+<cont:2>EU
+<country:7>Croatia
+<distance:3>280
+<dxcc:3>497
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.119
+<freq_rx:5>7.119
+<gridsquare:6>JN85et
+<lat:11>N045 48.750
+<lon:11>E016 22.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250312
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<qrzcom_qso_download_date:8>20250312
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250312
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250312
+<qso_date_off:8>20250312
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1719
+<time_on:4>1719
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242944085
+<app_qrzlog_status:1>2
+<band:3>40m
+<band_rx:3>40m
+<call:7>HA1NG/P
+<comment:40>HU-0016 parks in the air Normafa mellol.
+<cont:2>EU
+<country:7>Hungary
+<cqz:2>15
+<distance:1>6
+<dxcc:3>239
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.155
+<freq_rx:5>7.155
+<gridsquare:4>jn97
+<ituz:2>28
+<lat:11>N047 30.000
+<lon:11>E019 00.000
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250312
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:12>Kornél Ács
+<qrzcom_qso_download_date:8>20250312
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250312
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250312
+<qso_date_off:8>20250312
+<qth:28>Portable anywhere in Hungary
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1724
+<time_on:4>1724
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1242944745
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:6>II8ICN
+<cont:2>EU
+<country:5>Italy
+<distance:3>834
+<dxcc:3>248
+<email:16>iu8ceu@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.199
+<freq_rx:5>7.199
+<gridsquare:6>JN70et
+<lat:11>N040 48.750
+<lon:11>E014 22.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250312
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:51>Italian Navy Coastal Radio Station Maritele Naples 
+<qrzcom_qso_download_date:8>20250312
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250312
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:26>DIRECT OR BEREAU VIA IQ8XS
+<qso_date:8>20250312
+<qso_date_off:8>20250312
+<qth:43>Via IV Novembre, 23 Calvi Risorta -Caserta-
+<rst_rcvd:2>59
+<rst_sent:2>58
+<state:2>IT
+<station_callsign:6>HA7NCS
+<time_off:4>1727
+<time_on:4>1727
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1243005247
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:5>YB0AR
+<cont:2>OC
+<country:9>Indonesia
+<cqz:2>28
+<distance:5>10351
+<dxcc:3>327
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.237
+<freq_rx:6>14.237
+<gridsquare:6>OI33jr
+<iota:6>OC-021
+<ituz:2>54
+<lat:11>S006 16.300
+<lon:11>E106 47.400
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250312
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:20>Yose Ferry ( Ferry )
+<qrzcom_qso_download_date:8>20250312
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250312
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:18>LoTW & QRZ Logbook
+<qso_date:8>20250312
+<qso_date_off:8>20250312
+<qth:7>Jakarta
+<rst_rcvd:2>57
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1838
+<time_on:4>1838
 <tx_pwr:3>100
 <eor>
 
