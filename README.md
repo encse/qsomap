@@ -1,7 +1,7 @@
 # QSO Map Viewer
 
 ## Overview
-The **QSO Map Viewer** is a web-based tool that displays QSOs (contacts) from the QRZ Logbook on an interactive fullscreen map. The data updates automatically every day using a scheduled GitHub Actions workflow.
+The **QSO Map Viewer** is a web component that displays QSOs (contacts) from an Adif Logbook file on an interactive fullscreen map. 
 
 ## Usage
 The index.html demonstrates the idea. The js file in the dist folder exports a custom html element which can be parameterized when included in a webpage.
