@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HA7NCS QSO Map</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/leaflet.fullscreen.css" />
+
     <style>
         body, html {
             height: 100%;
@@ -23,148 +21,8 @@
 </head>
 
 <body>
-    <div id="map"></div>
-
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
-    <script>
-        const map = L.map('map').setView([47, 19], 3);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
-
-        map.addControl(new L.Control.Fullscreen({
-            title: {
-                'false': 'View Fullscreen',
-                'true': 'Exit Fullscreen'
-            }
-        }));
-
-        // Add overlay text to the map
-        const overlayText = L.control({position: 'topright'});
-        overlayText.onAdd = function (map) {
-            let div = L.DomUtil.create('div', 'leaflet-control leaflet-control-custom');
-            div.style.background = 'rgba(0, 0, 0, 0.7)';
-            div.style.color = 'white';
-            div.style.padding = '10px';
-            div.style.fontSize = '18px';
-            div.style.fontWeight = 'bold';
-            div.style.borderRadius = '5px';
-            div.innerHTML = `<a href="https://www.qrz.com/db/HA7NCS" target="_blank" style="color: white">HA7NCS</a>`;
-            return div;
-        };
-        overlayText.addTo(map);
-
-
-        const iconScale = 0.7
-        const greenIcon = new L.Icon({
-            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
-            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-shadow.png',
-            iconSize: [25 * iconScale, 41 * iconScale],
-            iconAnchor: [12 * iconScale, 41 * iconScale],
-            popupAnchor: [1 * iconScale, -34 * iconScale],
-            shadowSize: [41 * iconScale, 41 * iconScale]
-        });
-
-        const yellowIcon = new L.Icon({
-            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png',
-            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/marker-shadow.png',
-            iconSize: [25 * iconScale, 41 * iconScale],
-            iconAnchor: [12 * iconScale, 41 * iconScale],
-            popupAnchor: [1 * iconScale, -34 * iconScale],
-            shadowSize: [41 * iconScale, 41 * iconScale]
-        });
-
-        function loadDefaultADIF() {
-            fetch('index.adi')
-                .then(response => response.text())
-                .then(data => parseADIF(data))
-                .catch(error => console.error('Error loading default ADIF:', error));
-        }
-
-        function gridToCoordinates(grid) {
-            grid = grid.toUpperCase();
-
-            if (grid.length < 4 || grid.length % 2 !== 0) {
-                throw "grid square: grid must be at least 4 characters and have an even length: " + grid;
-            }
-
-            let lat = -90; // Starting latitude
-            let lon = -180; // Starting longitude
-            let lat_step = 240; // Initial latitude step size
-            let lon_step = 480; // Initial longitude step size
-
-            for (let i = 0; i < grid.length; i += 2) {
-
-                if (i % 4 == 2) {
-                    lon_step /= 10;
-                    lat_step /= 10;
-                } else if (i % 4 == 0) {
-                    lon_step /= 24;
-                    lat_step /= 24;
-                }
-
-                const char1 = grid.charAt(i);
-                const char2 = grid.charAt(i + 1);
-
-                if (char1 >= '0' && char1 <= '9') {
-                    lon += lon_step * parseInt(char1, 10);
-                    lat += lat_step * parseInt(char2, 10);
-                } else {
-                    lon += lon_step * (char1.charCodeAt(0) - 'A'.charCodeAt(0));
-                    lat += lat_step * (char2.charCodeAt(0) - 'A'.charCodeAt(0));
-                }
-            }
-
-            lat += lat_step * 0.5;
-            lon += lon_step * 0.5;
-
-            return {lat, lon}
-        }
-
-        function parseADIF(adifText) {
-            const parts = adifText.split('<eoh>')
-            const lines = parts[parts.length-1].split('<eor>');
-            lines.forEach(entry => {
-                const latMatch = entry.match(/<lat:[0-9]+>([NS])([0-9]+) ([0-9]+\.[0-9]+)/i);
-                const lonMatch = entry.match(/<lon:[0-9]+>([EW])([0-9]+) ([0-9]+\.[0-9]+)/i);
-                const gridsquareMatch = entry.match(/<gridsquare:[0-9]+>([A-Z0-9/]+)/i);
-                const callsignMatch = entry.match(/<call:[0-9]+>([A-Z0-9/]+)/i);
-                const qslMatch = entry.match(/<app_qrzlog_qsldate:[0-9]+>([0-9]+)/i);
-                let lat = 0
-                let lon = 0
-                if (latMatch && lonMatch) {
-                    lat = parseFloat(latMatch[2]) + parseFloat(latMatch[3]) / 60;
-                    lon = parseFloat(lonMatch[2]) + parseFloat(lonMatch[3]) / 60;
-                    if (latMatch[1] == 'S') lat = -lat;
-                    if (lonMatch[1] == 'W') lon = -lon;
-                }
-
-                if (lat == 0 && lon == 0 && gridsquareMatch) {
-                    let res = gridToCoordinates(gridsquareMatch)
-                    lat = res.lat;
-                    lon = res.lon;
-                }
-
-                if (lat !== 0 || lon !== 0) {
-                    const callsign = callsignMatch ? callsignMatch[1] : 'Unknown';
-
-                    const isConfirmed = qslMatch;
-                    const icon = isConfirmed ? greenIcon : yellowIcon;
-
-                    L.marker([lat, lon], { icon }).addTo(map)
-                        .bindPopup(`<b>${callsign}</b><br>Lat: ${lat.toFixed(4)}<br>Lon: ${lon.toFixed(4)}<br>Confirmed: ${isConfirmed ? 'Yes' : 'No'}`);
-                }
-            });
-
-        
-        }
-
-
-        // Load default ADIF file on page load
-        window.onload = loadDefaultADIF;
-    </script>
+    <script type="module" src="lib/main.js"></script>
+    <qso-map src="index.adif" callsign="HA7NCS"></qso-map>
 </body>
 
 </html>

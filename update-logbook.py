@@ -38,11 +38,10 @@ if response.status_code == 200:
         adif_content = response.text[adif_start + 5:]  # Skip "ADIF=" itself
         unescaped_adif = html.unescape(adif_content.strip())  # Unescape and remove any leading/trailing whitespace
 
-        # Save to index.adi
-        with open("index.adi", "w", encoding="utf-8") as file:
+        with open("index.adif", "w", encoding="utf-8") as file:
             file.write(unescaped_adif)
 
-        print("Saved unescaped ADIF data to index.adi")
+        print("Saved unescaped ADIF data to index.adif")
     else:
         print("Error: 'ADIF' key not found in response")
 else:
