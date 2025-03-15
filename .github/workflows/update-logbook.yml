@@ -38,5 +38,5 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git add index.adi
-          git commit -m "Updated index.adi [Automated Action]" && git push || echo "No changes to commit"
+          git add *.adif
+          git commit -m "Updated adif [Automated Action]" && git push || echo "No changes to commit"
