@@ -10555,55 +10555,6 @@
 <tx_pwr:3>100
 <eor>
 
-<app_lotw_modegroup:5>PHONE
-<app_lotw_my_dxcc_entity_status:7>Current
-<app_lotw_owncall:6>HA7NCS
-<app_lotw_qso_timestamp:20>2025-03-12T18:38:00Z
-<app_lotw_rxqso:19>2025-03-12 18:39:10
-<app_qrzlog_logid:10>1243390198
-<app_qrzlog_status:1>N
-<band:3>40M
-<band_rx:3>40M
-<call:5>YB0AR
-<cont:2>OC
-<country:9>Indonesia
-<cqz:2>28
-<distance:5>10351
-<dxcc:3>327
-<freq:5>7.199
-<freq_rx:5>7.199
-<gridsquare:6>OI33jr
-<iota:6>OC-021
-<ituz:2>54
-<lat:11>S006 16.300
-<lon:11>E106 47.400
-<lotw_qsl_sent:1>Y
-<mode:3>SSB
-<my_city:3>Erd
-<my_country:7>Hungary
-<my_cq_zone:2>15
-<my_gridsquare:6>JN97MM
-<my_iota:4>none
-<my_itu_zone:2>28
-<my_lat:11>N047 31.032
-<my_lon:11>E019 04.336
-<my_name:18>David Nemeth-csoka
-<name:20>Yose Ferry ( Ferry )
-<qrzcom_qso_download_date:8>20250316
-<qrzcom_qso_download_status:1>Y
-<qrzcom_qso_upload_date:8>20250313
-<qrzcom_qso_upload_status:1>Y
-<qsl_rcvd:1>N
-<qsl_sent:1>N
-<qsl_via:18>LoTW & QRZ Logbook
-<qso_date:8>20250312
-<qso_date_off:8>20250312
-<qth:7>Jakarta
-<station_callsign:6>HA7NCS
-<time_off:4>1838
-<time_on:4>1838
-<eor>
-
 <app_qrzlog_logid:10>1243397127
 <app_qrzlog_status:1>N
 <band:3>20m
@@ -11562,4 +11513,3 @@
 <tx_pwr:3>100
 <eor>
 
-&RESULT=OK
