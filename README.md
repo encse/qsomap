@@ -18,4 +18,3 @@ The project includes a script that fetches the latest logbook data from QRZ, pro
 
 ## License
 This project is licensed under the MIT License.
-
