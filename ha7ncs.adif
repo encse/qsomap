@@ -3648,7 +3648,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1233144955
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250320
+<app_qrzlog_status:1>C
 <band:3>10m
 <band_rx:3>10m
 <call:5>OY1OF
@@ -3667,8 +3668,9 @@
 <ituz:2>27
 <lat:11>N062 00.937
 <lon:11>W006 45.311
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250319
 <lotw_qslsdate:8>20250222
 <mode:3>SSB
 <my_city:3>Erd
@@ -7227,7 +7229,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1239530124
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250320
+<app_qrzlog_status:1>C
 <band:3>10m
 <band_rx:3>10m
 <call:5>4X5LL
@@ -7245,8 +7248,9 @@
 <ituz:2>39
 <lat:11>N031 16.200
 <lon:11>E034 47.400
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250316
 <lotw_qslsdate:8>20250306
 <mode:3>SSB
 <my_city:3>Erd
@@ -8710,7 +8714,8 @@
 <app_lotw_qso_timestamp:20>2025-03-08T14:41:00Z
 <app_lotw_rxqso:19>2025-03-08 14:42:11
 <app_qrzlog_logid:10>1240643814
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250320
+<app_qrzlog_status:1>C
 <band:3>10M
 <band_rx:3>10M
 <call:5>4X5LL
@@ -8726,7 +8731,9 @@
 <ituz:2>39
 <lat:11>N031 16.200
 <lon:11>E034 47.400
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250316
 <mode:3>SSB
 <my_city:3>Erd
 <my_country:7>Hungary
@@ -11886,8 +11893,9 @@
 <ituz:2>39
 <lat:11>N034 49.722
 <lon:11>E033 34.791
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250317
 <lotw_qslsdate:8>20250317
 <mode:3>SSB
 <my_city:3>Erd
@@ -11937,8 +11945,9 @@
 <ituz:2>28
 <lat:11>N041 55.861
 <lon:11>E019 33.352
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250318
 <lotw_qslsdate:8>20250317
 <mode:3>SSB
 <my_city:3>Erd
@@ -12293,7 +12302,7 @@
 <lat:11>N023 36.252
 <lon:11>E058 22.500
 <lotw_qsl_rcvd:1>N
-<lotw_qsl_sent:1>N
+<lotw_qsl_sent:1>Y
 <lotw_qslsdate:8>20250318
 <mode:3>SSB
 <my_city:3>Erd
@@ -12395,8 +12404,9 @@
 <ituz:2>27
 <lat:11>N053 35.005
 <lon:11>W001 27.176
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250318
 <lotw_qslsdate:8>20250318
 <mode:3>SSB
 <my_city:3>Erd
