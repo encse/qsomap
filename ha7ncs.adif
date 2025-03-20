@@ -10817,7 +10817,7 @@
 <eor>
 
 <app_qrzlog_logid:10>1243666511
-<app_qrzlog_status:1>2
+<app_qrzlog_status:1>S
 <band:3>20m
 <band_rx:3>20m
 <call:5>DG5YL
@@ -12177,7 +12177,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1245252969
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250320
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:6>2E0YMT
@@ -12734,6 +12735,214 @@
 <station_callsign:6>HA7NCS
 <time_off:4>1628
 <time_on:4>1628
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246474566
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:6>SM5ZCJ
+<cont:2>EU
+<country:6>Sweden
+<cqz:2>14
+<distance:4>1267
+<dxcc:3>284
+<email:21>cyckelnyckel@yahoo.se
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.265
+<freq_rx:6>14.265
+<gridsquare:6>JO78tr
+<ituz:2>18
+<lat:11>N058 43.622
+<lon:11>E015 36.717
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250320
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:11>Dirk Thiele
+<qrzcom_qso_download_date:8>20250320
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250320
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250320
+<qso_date_off:8>20250320
+<qth:8>Finspong
+<rst_rcvd:2>57
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1533
+<time_on:4>1533
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246483165
+<app_qrzlog_qsldate:8>20250320
+<app_qrzlog_status:1>C
+<band:3>10m
+<band_rx:3>10m
+<call:6>YB7ONC
+<comment:82>I wouldnt have believed that you hear me, but we did it :) good job on both sides!
+<cont:2>OC
+<country:9>Indonesia
+<cqz:2>28
+<distance:5>10431
+<dxcc:3>327
+<email:25>rasulan.sanggar@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>28.467
+<freq_rx:6>28.467
+<gridsquare:6>OI57ug
+<iota:6>OC-088
+<ituz:2>54
+<lat:11>S002 43.830
+<lon:11>E111 43.521
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250320
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:19>RASULAN ALI SANGGAR
+<qrzcom_qso_download_date:8>20250320
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250320
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:21>LoTW, ClubLog, QRZLog
+<qso_date:8>20250320
+<qso_date_off:8>20250320
+<qth:42>Kab.Kotawaringin Barat, Kalimantan Tengah,
+<rst_rcvd:2>53
+<rst_sent:2>53
+<station_callsign:6>HA7NCS
+<time_off:4>1634
+<time_on:4>1634
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246493878
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>DG4DW
+<cont:2>EU
+<country:7>Germany
+<cqz:2>14
+<distance:3>935
+<dxcc:3>230
+<email:15>dozent99@web.de
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.257
+<freq_rx:6>14.257
+<gridsquare:6>JO31tl
+<ituz:2>28
+<lat:11>N051 28.700
+<lon:11>E007 37.400
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250320
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:25>Michael 'Mike' Wittemeier
+<qrzcom_qso_download_date:8>20250320
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250320
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:26>VIA BUREAU, LotW OR DIRECT
+<qso_date:8>20250320
+<qso_date_off:8>20250320
+<qth:17>59439 Holzwickede
+<rst_rcvd:2>55
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1703
+<time_on:4>1703
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246510660
+<app_qrzlog_qsldate:8>20250320
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:6>IT9DGP
+<comment:119>Sorry for my bad signal, I've been trying to adjust my antenna and it's not OK yet. Thanks for the efforts and the QSO!
+<cont:2>EU
+<country:5>Italy
+<cqz:2>15
+<distance:4>1226
+<dxcc:3>248
+<email:26>devidgagliano591@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.297
+<freq_rx:6>14.297
+<gridsquare:6>JM67sg
+<iota:6>EU-025
+<ituz:2>18
+<lat:11>N037 16.426
+<lon:11>E013 30.945
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250320
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:38>Davide (devid Gagliano Via Dello Sport
+<qrzcom_qso_download_date:8>20250320
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250320
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250320
+<qso_date_off:8>20250320
+<qth:25>Porto Empedocle Agrigento
+<rst_rcvd:2>57
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1802
+<time_on:4>1802
 <tx_pwr:3>100
 <eor>
 
