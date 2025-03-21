@@ -1365,8 +1365,9 @@
 <ituz:2>37
 <lat:11>N040 43.094
 <lon:11>E000 43.566
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
 <my_city:3>�rd
@@ -6767,7 +6768,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1238420167
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:5>EA3KE
@@ -6786,8 +6788,9 @@
 <ituz:2>37
 <lat:11>N040 43.094
 <lon:11>E000 43.566
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
 <lotw_qslsdate:8>20250304
 <mode:3>SSB
 <my_city:3>Erd
@@ -11474,7 +11477,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1244014423
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:5>EA3KE
@@ -11492,8 +11496,9 @@
 <ituz:2>37
 <lat:11>N040 43.094
 <lon:11>E000 43.566
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
 <lotw_qslsdate:8>20250315
 <mode:3>SSB
 <my_city:3>Erd
@@ -11840,8 +11845,9 @@
 <ituz:2>28
 <lat:11>N054 17.719
 <lon:11>E009 29.740
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250320
 <lotw_qslsdate:8>20250316
 <mode:3>SSB
 <my_city:3>Erd
@@ -12487,7 +12493,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1245693749
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:6>IU2LNP
@@ -12505,8 +12512,9 @@
 <ituz:2>28
 <lat:11>N045 34.052
 <lon:11>E010 11.997
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
 <lotw_qslsdate:8>20250318
 <mode:3>SSB
 <my_city:3>Erd
@@ -12843,7 +12851,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1246493878
-<app_qrzlog_status:1>N
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:5>DG4DW
@@ -12861,8 +12870,9 @@
 <ituz:2>28
 <lat:11>N051 28.700
 <lon:11>E007 37.400
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
 <lotw_qslsdate:8>20250320
 <mode:3>SSB
 <my_city:3>Erd
@@ -12943,6 +12953,564 @@
 <station_callsign:6>HA7NCS
 <time_off:4>1802
 <time_on:4>1802
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246674716
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:5>EA6FM
+<cont:2>EU
+<country:16>Balearic Islands
+<cqz:2>14
+<distance:4>1716
+<dxcc:2>21
+<email:17>ea6fm@hotmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>14.28
+<freq_rx:5>14.28
+<gridsquare:6>JM08qv
+<iota:6>EU-004
+<ituz:2>37
+<lat:11>N038 54.330
+<lon:11>E001 24.888
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:26>Fernando Morante Cárdenas
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:4>eQSL
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:21>IBIZA, Islas Baleares
+<rst_rcvd:2>58
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>0732
+<time_on:4>0732
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246675351
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:5>DJ2RS
+<comment:25>An other nice quick chat!
+<cont:2>EU
+<country:7>Germany
+<cqz:2>14
+<distance:4>1008
+<dxcc:3>230
+<email:12>dj2rs@gmx.de
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.255
+<freq_rx:6>14.255
+<gridsquare:6>JO44rh
+<ituz:2>28
+<lat:11>N054 17.719
+<lon:11>E009 29.740
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:12>Rainer Storm
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:23>QRZ or LotW only please
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:10>24806 Hohn
+<rst_rcvd:2>57
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>0737
+<time_on:4>0737
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246675751
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:5>EA3KE
+<comment:106>not the best signal this time. I've been playing with the antenna I'm using. Thanks for the report anyway.
+<cont:2>EU
+<country:5>Spain
+<cqz:2>14
+<distance:4>1643
+<dxcc:3>281
+<email:20>necktoni@hotmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.267
+<freq_rx:6>14.267
+<gridsquare:6>JN00ir
+<ituz:2>37
+<lat:11>N040 43.094
+<lon:11>E000 43.566
+<lotw_qsl_rcvd:1>Y
+<lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:16>Toni Olmo Tomàs
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:16>BUREAU OR DIRECT
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:20>Deltebre (Tarragona)
+<rst_rcvd:2>53
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>0740
+<time_on:4>0740
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246695315
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>UR0EA
+<comment:47>It was an honor to talk to you, Sir! Thank you.
+<cont:2>EU
+<country:7>Ukraine
+<distance:3>931
+<dxcc:3>288
+<email:13>ur0ea@mail.ru
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.256
+<freq_rx:6>14.256
+<gridsquare:6>KN59rb
+<lat:11>N049 03.750
+<lon:11>E031 27.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:16>Igor A. Bessarab
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:18>52100, Pyatikhatki
+<rst_rcvd:2>59
+<rst_sent:2>58
+<station_callsign:6>HA7NCS
+<time_off:4>0747
+<time_on:4>0747
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246714589
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>DL8FQ
+<comment:26>ham operator since 1961(!)
+<cont:2>EU
+<country:7>Germany
+<cqz:2>14
+<distance:3>888
+<dxcc:3>230
+<email:14>DL8FQ@yahoo.de
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.214
+<freq_rx:6>14.214
+<gridsquare:6>JN39pg
+<ituz:2>28
+<lat:11>N049 16.587
+<lon:11>E007 19.384
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:9>Rolf Lang
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:6>no QSL
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:13>66424 Homburg
+<rst_rcvd:2>55
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>0840
+<time_on:4>0840
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246716749
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>LY2NK
+<cont:2>EU
+<country:9>Lithuania
+<distance:3>901
+<dxcc:3>146
+<email:15>LY2NK@yahoo.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.208
+<freq_rx:6>14.208
+<gridsquare:6>KO15kg
+<lat:11>N055 16.250
+<lon:11>E022 52.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:13>Algis Kregzde
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:23>Palemonas, Kaunas, 3023
+<rst_rcvd:2>57
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>0903
+<time_on:4>0903
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246747498
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:7>DK5RK/P
+<cont:2>EU
+<country:7>Germany
+<cqz:2>14
+<dxcc:3>230
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.254
+<freq_rx:6>14.254
+<ituz:2>28
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<rst_rcvd:2>59
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1137
+<time_on:4>1137
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246785192
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:5>4L1BB
+<cont:2>AS
+<country:7>Georgia
+<cqz:2>21
+<distance:4>2148
+<dxcc:2>75
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.225
+<freq_rx:6>14.225
+<gridsquare:6>LN21px
+<ituz:2>21
+<lat:11>N041 58.700
+<lon:11>E045 17.400
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:20>Vepkhо Khosiashvili
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:49>VIA QSL MANAGER EA5 GL PEDRO MIGUEL RONDA MONSELL
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:17>AKHMETA. KISTAURI
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1409
+<time_on:4>1409
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246798105
+<app_qrzlog_qsldate:8>20250321
+<app_qrzlog_status:1>C
+<band:3>10m
+<band_rx:3>10m
+<call:5>4L4DD
+<cont:2>AS
+<country:7>Georgia
+<cqz:2>21
+<distance:4>2159
+<dxcc:2>75
+<email:26>dzamukashvili.gela@mail.ru
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>28.449
+<freq_rx:6>28.449
+<gridsquare:6>LN21qw
+<ituz:2>29
+<lat:11>N041 57.136
+<lon:11>E045 24.897
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:18>Gela Dzamukashvili
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:6>Telavi
+<rst_rcvd:2>56
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1504
+<time_on:4>1504
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246807718
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:5>PD8MD
+<cont:2>EU
+<country:11>Netherlands
+<cqz:2>14
+<distance:4>1055
+<dxcc:3>263
+<email:19>pd8mddxer@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.312
+<freq_rx:6>14.312
+<gridsquare:6>JO32fl
+<ituz:2>27
+<lat:11>N052 29.089
+<lon:11>E006 28.059
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:18>Anthonie L. Gijzel
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:33>bureau, direct e-qsl lotw Clublog
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:5>Ommen
+<rst_rcvd:2>57
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1540
+<time_on:4>1540
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1246811491
+<app_qrzlog_status:1>2
+<band:3>15m
+<band_rx:3>15m
+<call:5>M0CQL
+<comment:32>2nd qso, and a new band, thanks!
+<cont:2>EU
+<country:7>England
+<cqz:2>14
+<distance:4>1592
+<dxcc:3>223
+<email:17>m0cql@hotmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>21.256
+<freq_rx:6>21.256
+<gridsquare:6>IO93go
+<iota:6>EU-005
+<ituz:2>27
+<lat:11>N053 35.005
+<lon:11>W001 27.176
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250321
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:12>Andrew Young
+<qrzcom_qso_download_date:8>20250321
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250321
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250321
+<qso_date_off:8>20250321
+<qth:8>Barnsley
+<rst_rcvd:2>57
+<rst_sent:2>53
+<station_callsign:6>HA7NCS
+<time_off:4>1548
+<time_on:4>1548
 <tx_pwr:3>100
 <eor>
 
