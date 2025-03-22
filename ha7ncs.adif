@@ -1964,7 +1964,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1230398418
-<app_qrzlog_status:1>N
+<app_qrzlog_qsldate:8>20250322
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:7>LZ403ES
@@ -1982,8 +1983,9 @@
 <ituz:2>28
 <lat:11>N042 41.250
 <lon:11>E024 17.500
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
 <my_city:3>�rd
@@ -13431,8 +13433,9 @@
 <ituz:2>27
 <lat:11>N052 29.089
 <lon:11>E006 28.059
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250321
 <lotw_qslsdate:8>20250321
 <mode:3>SSB
 <my_city:3>Erd
@@ -13512,6 +13515,162 @@
 <station_callsign:6>HA7NCS
 <time_off:4>1548
 <time_on:4>1548
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1247188240
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:5>F4LRQ
+<comment:39>N4NHN to be checked out on FTdx10 setup
+<cont:2>EU
+<country:6>France
+<cqz:2>14
+<distance:4>1337
+<dxcc:3>227
+<email:20>f4lrq.yves@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.224
+<freq_rx:6>14.224
+<gridsquare:6>JN08nx
+<ituz:2>27
+<lat:11>N048 59.776
+<lon:11>E001 06.234
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250322
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:15>Yves D. BLEUSSE
+<qrzcom_qso_download_date:8>20250322
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250322
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250322
+<qso_date_off:8>20250322
+<qth:23>27180 Arnieres sur Iton
+<rst_rcvd:2>57
+<rst_sent:2>56
+<station_callsign:6>HA7NCS
+<time_off:4>0842
+<time_on:4>0842
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1247241530
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:6>DL1NCH
+<comment:30>Thanks again, had a nice chat!
+<cont:2>EU
+<country:7>Germany
+<cqz:2>14
+<distance:3>612
+<dxcc:3>230
+<email:12>dl1nch@o2.pl
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.224
+<freq_rx:6>14.224
+<gridsquare:6>JN59sw
+<ituz:2>28
+<lat:11>N049 56.045
+<lon:11>E011 33.983
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250322
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:12>Jacek Kupiec
+<qrzcom_qso_download_date:8>20250322
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250322
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:21>BURO-EQSL-LOTW-DIRECT
+<qso_date:8>20250322
+<qso_date_off:8>20250322
+<qth:18>D - 95447 Bayreuth
+<rst_rcvd:2>59
+<rst_sent:2>58
+<station_callsign:6>HA7NCS
+<time_off:4>1039
+<time_on:4>1039
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1247243529
+<app_qrzlog_qsldate:8>20250322
+<app_qrzlog_status:1>C
+<band:3>10m
+<band_rx:3>10m
+<call:5>A65HS
+<comment:232>Maybe the problem was on my side, but you had a super low signal on my side, sometimes jumping up to 52/53. Anyway we made it! I hope you can confirm this QSO, because that's my first one with United Arab Emirates. Many thanks, sir!
+<cont:2>AS
+<country:20>United Arab Emirates
+<cqz:2>21
+<distance:4>4092
+<dxcc:3>391
+<email:14>9k2hs@kars.org
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>28.455
+<freq_rx:6>28.455
+<gridsquare:6>LL73ep
+<ituz:2>39
+<lat:11>N023 38.750
+<lon:11>E054 22.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250322
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:18>Hamed A. Alshuwaie
+<qrzcom_qso_download_date:8>20250322
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250322
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:5>9K2HS
+<qso_date:8>20250322
+<qso_date_off:8>20250322
+<qth:9>Abu Dhabi
+<rst_rcvd:2>58
+<rst_sent:2>51
+<station_callsign:6>HA7NCS
+<time_off:4>1046
+<time_on:4>1046
 <tx_pwr:3>100
 <eor>
 
