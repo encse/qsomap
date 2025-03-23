@@ -2466,7 +2466,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1231408943
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250323
+<app_qrzlog_status:1>C
 <band:3>40m
 <band_rx:3>40m
 <call:6>YU3FMS
@@ -2484,8 +2485,9 @@
 <ituz:2>28
 <lat:11>N044 54.155
 <lon:11>E020 24.756
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250323
 <lotw_qslsdate:8>20250226
 <mode:3>SSB
 <my_city:3>�rd
@@ -2821,7 +2823,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1231906200
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250323
+<app_qrzlog_status:1>C
 <band:3>40m
 <band_rx:3>40m
 <call:6>YU3FMS
@@ -2839,8 +2842,9 @@
 <ituz:2>28
 <lat:11>N044 54.155
 <lon:11>E020 24.756
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250323
 <lotw_qslsdate:8>20250221
 <mode:3>SSB
 <my_city:3>�rd
@@ -13572,7 +13576,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1247241530
-<app_qrzlog_status:1>2
+<app_qrzlog_qsldate:8>20250323
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:6>DL1NCH
@@ -13591,8 +13596,9 @@
 <ituz:2>28
 <lat:11>N049 56.045
 <lon:11>E011 33.983
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250322
 <lotw_qslsdate:8>20250322
 <mode:3>SSB
 <my_city:3>Erd
@@ -13644,8 +13650,9 @@
 <ituz:2>39
 <lat:11>N023 38.750
 <lon:11>E054 22.500
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250322
 <lotw_qslsdate:8>20250322
 <mode:3>SSB
 <my_city:3>Erd
