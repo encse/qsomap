@@ -7036,7 +7036,7 @@
 <eor>
 
 <app_qrzlog_logid:10>1239076521
-<app_qrzlog_status:1>2
+<app_qrzlog_status:1>S
 <band:3>40m
 <band_rx:3>40m
 <call:6>SP9MQA
@@ -14450,6 +14450,58 @@
 <station_callsign:6>HA7NCS
 <time_off:4>1607
 <time_on:4>1607
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1250418556
+<app_qrzlog_status:1>2
+<band:3>15m
+<band_rx:3>15m
+<call:6>CT9ABP
+<comment:89>Thanks for being my first contact in Madeira Island! May I ask for a confirmation please?
+<cont:2>AF
+<country:14>Madeira Island
+<cqz:2>33
+<distance:4>3444
+<dxcc:3>256
+<email:16>om3bh@centrum.sk
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>21.321
+<freq_rx:6>21.321
+<gridsquare:6>IM12ju
+<ituz:2>36
+<lat:11>N032 51.200
+<lon:11>W017 12.600
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250327
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:15>Rastislav Hrnko
+<qrzcom_qso_download_date:8>20250327
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250327
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:41>via OM3BH or OM bureau dont use CT bureau
+<qso_date:8>20250327
+<qso_date_off:8>20250327
+<qth:11>Porto Moniz
+<rst_rcvd:2>59
+<rst_sent:2>55
+<station_callsign:6>HA7NCS
+<time_off:4>1817
+<time_on:4>1817
 <tx_pwr:3>100
 <eor>
 
