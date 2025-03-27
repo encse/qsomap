@@ -13318,7 +13318,7 @@
 <eor>
 
 <app_qrzlog_logid:10>1246785192
-<app_qrzlog_status:1>2
+<app_qrzlog_status:1>S
 <band:3>20m
 <band_rx:3>20m
 <call:5>4L1BB
@@ -14195,6 +14195,261 @@
 <station_callsign:6>HA7NCS
 <time_off:4>1728
 <time_on:4>1728
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1250370101
+<app_qrzlog_status:1>2
+<band:3>40m
+<band_rx:3>40m
+<call:8>9A3GVD/P
+<cont:2>EU
+<country:7>Croatia
+<cqz:2>15
+<distance:3>490
+<dxcc:3>497
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:4>7.19
+<freq_rx:4>7.19
+<gridsquare:6>JN73vs
+<ituz:2>28
+<lat:11>N043 45.449
+<lon:11>E015 46.222
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250327
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:17>Domagoj DOM Vucak
+<qrzcom_qso_download_date:8>20250327
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250327
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:61>DIRECT, BUREAU, LoTW or eQSL/PLS Scroll Down, Very important!
+<qso_date:8>20250327
+<qso_date_off:8>20250327
+<qth:12>22211 Vodice
+<rst_rcvd:2>59
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1459
+<time_on:4>1459
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1250370136
+<app_qrzlog_status:1>2
+<band:3>40m
+<band_rx:3>40m
+<call:6>9A3GVD
+<cont:2>EU
+<country:7>Croatia
+<cqz:2>15
+<distance:3>488
+<dxcc:3>497
+<email:23>dvucak.9a3gvd@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:4>7.19
+<freq_rx:4>7.19
+<gridsquare:6>JN73vs
+<ituz:2>28
+<lat:11>N043 46.200
+<lon:11>E015 47.400
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250327
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:17>Domagoj DOM Vucak
+<qrzcom_qso_download_date:8>20250327
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250327
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:61>DIRECT, BUREAU, LoTW or eQSL/PLS Scroll Down, Very important!
+<qso_date:8>20250327
+<qso_date_off:8>20250327
+<qth:12>22211 Vodice
+<rst_rcvd:2>59
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1459
+<time_on:4>1459
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1250372259
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:5>4L1BB
+<cont:2>AS
+<country:7>Georgia
+<cqz:2>21
+<distance:4>2148
+<dxcc:2>75
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.215
+<freq_rx:6>14.215
+<gridsquare:6>LN21px
+<ituz:2>21
+<lat:11>N041 58.700
+<lon:11>E045 17.400
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250327
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:20>Vepkhо Khosiashvili
+<qrzcom_qso_download_date:8>20250327
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250327
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:49>VIA QSL MANAGER EA5 GL PEDRO MIGUEL RONDA MONSELL
+<qso_date:8>20250327
+<qso_date_off:8>20250327
+<qth:17>AKHMETA. KISTAURI
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1510
+<time_on:4>1510
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1250388537
+<app_qrzlog_status:1>2
+<band:3>20m
+<band_rx:3>20m
+<call:4>SZ1A
+<comment:69>Thanks for being my first contact in my log from Greece! Made my day!
+<cont:2>EU
+<country:6>Greece
+<cqz:2>20
+<distance:3>993
+<dxcc:3>236
+<email:19>radiosz1a@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.265
+<freq_rx:6>14.265
+<gridsquare:6>KM08qr
+<ituz:2>28
+<lat:11>N038 44.613
+<lon:11>E021 23.574
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250327
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:41> Radio Amateur Association of West Greece
+<qrzcom_qso_download_date:8>20250327
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250327
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250327
+<qso_date_off:8>20250327
+<qth:7>Agrinio
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1603
+<time_on:4>1603
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1250389485
+<app_qrzlog_qsldate:8>20250327
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:6>PA1WLB
+<comment:25>Thanks for our first QSO!
+<cont:2>EU
+<country:11>Netherlands
+<cqz:2>14
+<distance:4>1125
+<dxcc:3>263
+<email:15>pa1wlb@mail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.257
+<freq_rx:6>14.257
+<gridsquare:6>JO21jo
+<ituz:2>27
+<lat:11>N051 35.317
+<lon:11>E004 45.084
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250327
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:14>Willem Luijten
+<qrzcom_qso_download_date:8>20250327
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250327
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:33>PA1WLB/P 2011 VIA HOMECALL PA1WLB
+<qso_date:8>20250327
+<qso_date_off:8>20250327
+<qth:14>4814 KH Breda.
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1607
+<time_on:4>1607
 <tx_pwr:3>100
 <eor>
 
