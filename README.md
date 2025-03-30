@@ -16,5 +16,11 @@ The index.html demonstrates the idea. The js file in the dist folder exports a c
 ## Automation
 The project includes a script that fetches the latest logbook data from QRZ, processes it, and updates the map automatically without manual intervention. If you want to fork the repo, you should also set this up by defining an api key for qrz.com in the repo secrets.
 
+## Dev
+
+```
+npx vite build && npm run dev           
+```
+
 ## License
 This project is licensed under the MIT License.
