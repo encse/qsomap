@@ -21869,7 +21869,8 @@
 <lat:11>N040 23.750
 <lon:11>W003 42.500
 <lotw_qsl_rcvd:1>N
-<lotw_qsl_sent:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
 <mode:2>CW
 <my_city:3>Erd
 <my_country:7>Hungary
@@ -21897,5 +21898,486 @@
 <time_off:4>1737
 <time_on:4>1737
 <tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260132914
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:7>AO7IARU
+<cont:2>EU
+<country:5>Spain
+<cqz:2>14
+<distance:4>1979
+<dxcc:3>281
+<email:14>iaru100@ure.es
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.004
+<freq_rx:6>14.004
+<gridsquare:6>IN80dj
+<ituz:2>37
+<lat:11>N040 23.750
+<lon:11>W003 42.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:2>CW
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:22>100th IARU ANNIVERSARY
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:36>EA4URE - BUREAU (PREFERED) OR DIRECT
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<qth:6>Madrid
+<rst_rcvd:3>599
+<rst_sent:3>599
+<station_callsign:6>HA7NCS
+<time_off:4>0816
+<time_on:4>0816
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260134342
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:8>OH2OV/60
+<cont:2>EU
+<country:7>Finland
+<cqz:2>15
+<dxcc:3>224
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.011
+<freq_rx:6>14.011
+<ituz:2>18
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:2>CW
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<rst_rcvd:3>599
+<rst_sent:3>599
+<station_callsign:6>HA7NCS
+<time_off:4>0826
+<time_on:4>0826
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260134752
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:9>SP100IARU
+<cont:2>EU
+<country:6>Poland
+<cqz:2>15
+<distance:3>547
+<dxcc:3>269
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.027
+<freq_rx:5>7.027
+<gridsquare:6>KO02mg
+<ituz:2>28
+<lat:11>N052 16.250
+<lon:11>E021 02.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:2>CW
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:59>The 95th anniversary of the PZK and centennial of the IARU 
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<qth:6>Warsaw
+<rst_rcvd:3>599
+<rst_sent:3>599
+<station_callsign:6>HA7NCS
+<time_off:4>0830
+<time_on:4>0830
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260136617
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:7>DL100DM
+<cont:2>EU
+<country:7>Germany
+<cqz:2>14
+<distance:3>563
+<dxcc:3>230
+<email:16>afroeschl@web.de
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.131
+<freq_rx:5>7.131
+<gridsquare:6>JN58sd
+<ituz:2>28
+<lat:11>N048 07.802
+<lon:11>E011 34.980
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:50>German Amateur Radio Club - Special Event Callsign
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:9>via DL8FA
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<qth:6>Munich
+<rst_rcvd:2>59
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>0846
+<time_on:4>0846
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260137584
+<app_qrzlog_qsldate:8>20250418
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:7>TM13REF
+<cont:2>EU
+<country:6>France
+<cqz:2>27
+<distance:4>1165
+<dxcc:3>227
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.224
+<freq_rx:6>14.225
+<gridsquare:6>JN23qh
+<ituz:2>14
+<lat:11>N043 18.700
+<lon:11>E005 22.400
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:64>Pour les 100 ans du REF / IARU - For the 100th anniversary of th
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:45>Only via : Club LOG - LOGBOOK QRZ.com - E-QSL
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<qth:9>MARSEILLE
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>0852
+<time_on:4>0852
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260139657
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:7>SN95PZK
+<cont:2>EU
+<country:6>Poland
+<cqz:2>15
+<distance:3>547
+<dxcc:3>269
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.163
+<freq_rx:5>7.163
+<gridsquare:6>KO02mg
+<ituz:2>28
+<lat:11>N052 16.250
+<lon:11>E021 02.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:59>The 95th anniversary of the PZK and centennial of the IARU 
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<qth:6>Warsaw
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>0902
+<time_on:4>0902
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260143541
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:9>OL100IARU
+<cont:2>EU
+<country:14>Czech Republic
+<cqz:2>15
+<distance:3>454
+<dxcc:3>503
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.165
+<freq_rx:5>7.165
+<gridsquare:6>JO70gh
+<ituz:2>28
+<lat:11>N050 18.750
+<lon:11>E014 32.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:16>Czech Radio Club
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:4>LOTW
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<qth:7>Praha 7
+<rst_rcvd:2>59
+<rst_sent:2>59
+<state:2>CZ
+<station_callsign:6>HA7NCS
+<time_off:4>0928
+<time_on:4>0928
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1260158071
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>G4YLJ
+<cont:2>EU
+<country:7>England
+<cqz:2>14
+<distance:4>1635
+<dxcc:3>223
+<email:17>g4ylj@hotmail.com
+<freq:7>14.0761
+<freq_rx:7>14.0761
+<gridsquare:4>IO83
+<ituz:2>14
+<lat:11>N053 33.134
+<lon:11>W002 08.803
+<mode:3>FT8
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97KK
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:13>FH NORMINGTON
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250417
+<qso_date_off:8>20250417
+<qth:10>CHADDERTON
+<rst_rcvd:3>-09
+<rst_sent:3>-08
+<station_callsign:6>HA7NCS
+<time_off:4>1540
+<time_on:4>1539
+<eor>
+
+<app_qrzlog_logid:10>1260158072
+<app_qrzlog_qsldate:8>20250418
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:5>R4FDD
+<cont:2>EU
+<country:6>Russia
+<cqz:2>16
+<distance:4>2012
+<dxcc:2>54
+<freq:7>14.0763
+<freq_rx:7>14.0763
+<gridsquare:6>LO33br
+<ituz:2>29
+<lat:11>N053 42.774
+<lon:11>E046 05.301
+<mode:3>FT8
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97KK
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:16>Sergey Kuznetsov
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:19>Hamlog.online, eQSL
+<qso_date:8>20250417
+<qso_date_off:8>20250417
+<qth:27>Nickol'sk, Penzenskaya obl.
+<rst_rcvd:3>-15
+<rst_sent:3>+07
+<station_callsign:6>HA7NCS
+<time_off:4>1553
+<time_on:4>1552
+<eor>
+
+<app_qrzlog_logid:10>1260158073
+<app_qrzlog_status:1>N
+<band:3>15m
+<band_rx:3>15m
+<call:6>3D2AJT
+<cont:2>OC
+<country:4>Fiji
+<distance:5>16090
+<dxcc:3>176
+<email:16>3d2ajt@gmail.com
+<freq:7>21.1415
+<freq_rx:7>21.1415
+<gridsquare:4>RH82
+<lat:11>S020 41.250
+<lon:11>E170 37.500
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250418
+<mode:3>FT4
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97KK
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:21>Special Event Station
+<qrzcom_qso_download_date:8>20250418
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250418
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:11>via clublog
+<qso_date:8>20250418
+<qso_date_off:8>20250418
+<qth:4>Nadi
+<rst_rcvd:3>-02
+<rst_sent:3>-06
+<station_callsign:6>HA7NCS
+<time_off:4>1008
+<time_on:4>1008
 <eor>
 
