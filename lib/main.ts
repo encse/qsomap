@@ -47,6 +47,16 @@ const groupYellowIcon = new L.Icon({
 });
 
 
+type State = {
+  entries: QsoEntry[];
+  modes: ReadonlySet<QsoMode>;
+  bands: ReadonlySet<string>;
+  activeModes: ReadonlySet<QsoMode>;
+  activeBands: ReadonlySet<string>;
+  callsign: string;
+  hamburger: boolean;
+};
+
 class QsoMap extends HTMLElement {
   constructor() {
     super();
@@ -91,161 +101,186 @@ class QsoMap extends HTMLElement {
     container.style.height = "100%";
     this.shadowRoot.appendChild(container);
 
-    const map = L.map(container).setView([47, 19], 3);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors'
-    }).addTo(map);
-
-    map.addControl(new L.Control.Fullscreen({
-      title: {
-        'false': 'View Fullscreen',
-        'true': 'Exit Fullscreen'
-      }
-    }));
-
-    const markerLayer = L.layerGroup().addTo(map);
     const callsign = this.getAttribute("callsign");
-    let activeModes: Set<QsoMode> = new Set(["PHONE", "CW", "DIGITAL"]);
+    if (!callsign) {
+      return;
+    }
 
     let qsoEntries: QsoEntry[] = [];
 
-
     const src = this.getAttribute("src");
-
     if (src) {
       const response = await fetch(src);
       const data = await response.text();
       qsoEntries = parseADIF(data);
     }
 
-    const bands = new Set<string>(qsoEntries.map(entry => entry.band));
-    let activeBands: Set<string> = new Set(bands);
-    console.log(activeBands);
-    if (callsign) {
-      const overlayText = new L.Control({position: 'topright'});
-      overlayText.onAdd = function () {
-        const div = L.DomUtil.create('div', 'leaflet-control leaflet-control-custom');
-        div.style.background = 'rgba(0, 0, 0, 0.7)';
-        div.style.color = 'white';
-        div.style.padding = '10px';
-        div.style.fontSize = '18px';
-        div.style.fontWeight = 'bold';
-        div.style.borderRadius = '5px';
-        div.style.display = 'flex';
-        div.style.flexDirection = 'column';
-        div.style.alignItems = 'flex-start';
-        div.style.gap = '5px';
-
-        L.DomEvent.disableClickPropagation(div);
-        L.DomEvent.disableScrollPropagation(div);
-
-        const topRow = document.createElement('div');
-        topRow.style.display = 'flex';
-        topRow.style.gap = '10px';
-        topRow.style.alignItems = 'center';
-
-        const link = document.createElement('a');
-        link.href = `https://www.qrz.com/db/${callsign}`;
-        link.target = "_blank";
-        link.textContent = callsign;
-        link.style.color = 'white';
-        link.style.textDecoration = 'none';
-
-        const hamburger = document.createElement('button');
-        hamburger.textContent = '☰';
-        hamburger.style.background = 'none';
-        hamburger.style.border = 'none';
-        hamburger.style.color = 'white';
-        hamburger.style.fontSize = '20px';
-        hamburger.style.cursor = 'pointer';
-
-        topRow.appendChild(link);
-        topRow.appendChild(hamburger);
-        div.appendChild(topRow);
-
-        const dropdown = document.createElement('div');
-        dropdown.style.display = 'none';
-        dropdown.style.flexDirection = 'column';
-        dropdown.style.gap = '5px';
-        dropdown.style.marginTop = '5px';
-        dropdown.style.transition = 'max-height 0.3s ease';
-        dropdown.style.overflow = 'hidden';
-
-        qsoModes.forEach(mode => {
-          const option = document.createElement('button');
-          option.textContent = mode;
-          option.style.background = '#333';
-          option.style.border = 'none';
-          option.style.color = 'white';
-          option.style.padding = '5px 10px';
-          option.style.borderRadius = '3px';
-          option.style.cursor = 'pointer';
-          option.addEventListener('click', () => {
-            if (activeModes.has(mode)) {
-              activeModes.delete(mode);
-              option.style.opacity = '0.5';
-            } else {
-              activeModes.add(mode);
-              option.style.opacity = '1';
-            }
-            renderMarkers(markerLayer, qsoEntries, activeModes, activeBands);            // 🔄 rerender based on new mode
-            return true;
-          });
-
-          dropdown.appendChild(option);
-        });
-
-        function renderBandFilters(bands: string[]) {
-          const bandContainer = document.createElement("div");
-          bandContainer.style.display = 'flex';
-          bandContainer.style.flexDirection = 'column';
-          bandContainer.style.gap = '5px';
-          bandContainer.style.marginTop = '5px';
-
-          bands.forEach(band => {
-            const button = document.createElement("button");
-            button.textContent = band;
-            button.classList.add("filter-button", "active");
-
-            button.addEventListener("click", () => {
-              if (activeBands.has(band)) {
-                activeBands.delete(band);
-                button.style.opacity = '0.1';
-              } else {
-                activeBands.add(band);
-                button.style.opacity = '1';
-              }
-              renderMarkers(markerLayer, qsoEntries, activeModes, activeBands);
-            });
-
-            bandContainer.appendChild(button);
-          });
-
-          dropdown.appendChild(bandContainer);
-        }
-
-        renderBandFilters([...bands.values()]);
-        div.appendChild(dropdown);
-
-        hamburger.addEventListener('click', () => {
-          const isVisible = dropdown.style.display === 'flex';
-          dropdown.style.display = isVisible ? 'none' : 'flex';
-        });
-
-        return div;
-      };
-      overlayText.addTo(map);
+    const bands = new Set(qsoEntries.map(entry => entry.band))
+    let state: State = {
+      entries: qsoEntries,
+      modes: new Set(qsoModes),
+      bands: new Set(bands),
+      activeModes: new Set(qsoModes),
+      activeBands: new Set(bands),
+      callsign: callsign,
+      hamburger: false,
     }
 
-
-    renderMarkers(markerLayer, qsoEntries, activeModes, activeBands);
+    let map = L.map(container).setView([47, 19], 3);
+    function update(stateT: Partial<State>)  {
+      map.remove();
+      map = L.map(container).setView([47, 19], 3);
+      state = {...state, ...stateT};
+      console.log(state);
+      render(map, state, update)
+    }
+    render(map, state, update);
   }
 }
 
+type Update = (state: Partial<State>) => void;
 
-function renderMarkers(markerLayer: L.LayerGroup, allEntries: QsoEntry[], modeFilter: Set<QsoMode>, bandFilter: Set<string>) {
-  markerLayer.clearLayers(); // just removes markers, keeps tile layer & controls
+function render(map: L.Map, state: State, update: Update){
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
 
+  map.addControl(new L.Control.Fullscreen({
+    title: {
+      'false': 'View Fullscreen',
+      'true': 'Exit Fullscreen'
+    }
+  }));
+
+  map.addControl(renderMenu(state, update));
+  map.addLayer(renderMarkers(state, update));
+}
+
+
+function renderMenu(state: State, update: Update) {
+  const overlayText = new L.Control({position: 'topright'});
+  overlayText.onAdd = function () {
+    const div = L.DomUtil.create('div', 'leaflet-control leaflet-control-custom');
+    div.style.background = 'rgba(0, 0, 0, 0.7)';
+    div.style.color = 'white';
+    div.style.padding = '10px';
+    div.style.fontSize = '18px';
+    div.style.fontWeight = 'bold';
+    div.style.borderRadius = '5px';
+    div.style.display = 'flex';
+    div.style.flexDirection = 'column';
+    div.style.alignItems = 'flex-start';
+    div.style.gap = '5px';
+
+    L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
+
+    const topRow = document.createElement('div');
+    topRow.style.display = 'flex';
+    topRow.style.gap = '10px';
+    topRow.style.alignItems = 'center';
+
+    const link = document.createElement('a');
+    link.href = `https://www.qrz.com/db/${state.callsign}`;
+    link.target = "_blank";
+    link.textContent = state.callsign;
+    link.style.color = 'white';
+    link.style.textDecoration = 'none';
+
+    const hamburger = document.createElement('button');
+    hamburger.textContent = '☰';
+    hamburger.style.background = 'none';
+    hamburger.style.border = 'none';
+    hamburger.style.color = 'white';
+    hamburger.style.fontSize = '20px';
+    hamburger.style.cursor = 'pointer';
+
+    topRow.appendChild(link);
+    topRow.appendChild(hamburger);
+    div.appendChild(topRow);
+
+    const dropdown = document.createElement('div');
+    dropdown.style.display = 'none';
+    dropdown.style.flexDirection = 'column';
+    dropdown.style.gap = '5px';
+    dropdown.style.marginTop = '5px';
+    dropdown.style.transition = 'max-height 0.3s ease';
+    dropdown.style.overflow = 'hidden';
+    dropdown.style.display = state.hamburger ? 'flex' : 'none';
+
+    hamburger.addEventListener('click', () => {
+      update({hamburger: !state.hamburger})
+    });
+
+    dropdown.appendChild(renderModeFilters(state, update));
+    dropdown.appendChild(renderBandFilters(state, update));
+
+    div.appendChild(dropdown);
+    return div;
+  }
+
+  return overlayText;
+}
+
+function toggleInSet<T>(set: ReadonlySet<T>, value:T): ReadonlySet<T>  {
+  return set.has(value)
+    ? new Set([...set].filter(item => item !== value))
+    : new Set([...set, value]);
+}
+
+function renderBandFilters(state: State, update: Update) {
+  const container = document.createElement("div");
+  container.style.display = 'flex';
+  container.style.flexDirection = 'column';
+  container.style.gap = '5px';
+  container.style.marginTop = '5px';
+
+  state.bands.forEach(band => {
+    const button = document.createElement("button");
+    button.textContent = band;
+    const active = state.activeBands.has(band)
+    button.style.opacity = active ? "1" : "0.1";
+    button.addEventListener("click", () => {
+      update({activeBands: toggleInSet(state.activeBands, band)});
+    });
+    container.appendChild(button);
+  });
+
+  return container;
+}
+
+function renderModeFilters(state: State, update: Update) {
+
+  const container = document.createElement("div");
+  container.style.display = 'flex';
+  container.style.flexDirection = 'column';
+  container.style.gap = '5px';
+  container.style.marginTop = '5px';
+
+  qsoModes.forEach(mode => {
+    const button = document.createElement('button');
+    button.textContent = mode;
+    button.style.background = '#333';
+    button.style.border = 'none';
+    button.style.color = 'white';
+    button.style.opacity = state.activeModes.has(mode) ? "1" : "0.1";
+
+    button.addEventListener("click", () => {
+      update({activeModes: toggleInSet(state.activeModes, mode)});
+    });
+
+    container.appendChild(button);
+  });
+  return container;
+}
+
+function renderMarkers(state: State, update: Update) {
+
+  const markerLayer = L.layerGroup();
+
+  const allEntries = state.entries;
+  const modeFilter = state.activeModes;
+  const bandFilter = state.activeBands;
   const markerMap: Map<string, QsoMarker[]> = new Map();
 
   allEntries.forEach(({lat, lon, callsign, isConfirmed, mode, band}) => {
@@ -291,6 +326,7 @@ function renderMarkers(markerLayer: L.LayerGroup, allEntries: QsoEntry[], modeFi
       markerLayer.addLayer(markerCluster);
     }
   });
+  return markerLayer;
 }
 
 function gridToCoordinates(grid: string) {
@@ -391,7 +427,6 @@ function parseADIF(adifText: string): QsoEntry[] {
       const isConfirmed = qslMatch != null;
       const icon = isConfirmed ? greenIcon : yellowIcon;
       result.push({lat, lon, callsign, isConfirmed, mode, band});
-      console.log(band);
     }
   });
 
