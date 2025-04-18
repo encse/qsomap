@@ -17,6 +17,10 @@ class QsoMap extends HTMLElement {
     }
 
     async connectedCallback() {
+        if (this.shadowRoot == null) {
+            return
+        }
+
         const style = document.createElement("style");
         style.textContent = `
           :host {
@@ -28,7 +32,7 @@ class QsoMap extends HTMLElement {
         const leafletStyle = document.createElement("style");
         leafletStyle.textContent = leafletCss;
         this.shadowRoot.appendChild(leafletStyle);
-        
+
         const leafletFullscreenStyle = document.createElement("style");
         leafletFullscreenStyle.textContent = leafletFullScreenCss;
         this.shadowRoot.appendChild(leafletFullscreenStyle);
@@ -60,7 +64,7 @@ class QsoMap extends HTMLElement {
 
         const callsign = this.getAttribute("callsign");
         if (callsign) {
-            const overlayText = L.control({ position: 'topright' });
+            const overlayText = new L.Control({ position: 'topright' });
             overlayText.onAdd = function (map) {
                 let div = L.DomUtil.create('div', 'leaflet-control leaflet-control-custom');
                 div.style.background = 'rgba(0, 0, 0, 0.7)';
@@ -116,12 +120,14 @@ class QsoMap extends HTMLElement {
         });
 
 
-        fetch(this.getAttribute("src"))
-            .then(response => response.text())
-            .then(data => parseADIF(data))
-            .catch(error => console.error('Error loading default ADIF:', error));
-
-        function gridToCoordinates(grid) {
+        const src = this.getAttribute("src");
+        if (src) {
+            fetch(src)
+                .then(response => response.text())
+                .then(data => parseADIF(data))
+                .catch(error => console.error('Error loading default ADIF:', error));
+        }
+        function gridToCoordinates(grid: any) {
             grid = grid.toUpperCase();
 
             if (grid.length < 4 || grid.length % 2 !== 0) {
@@ -162,11 +168,11 @@ class QsoMap extends HTMLElement {
         }
 
 
-        function parseADIF(adifText) {
+        function parseADIF(adifText: string) {
             const parts = adifText.split('<eoh>')
             const lines = parts[parts.length - 1].split('<eor>');
 
-            const markerMap = new Map();
+            const markerMap: Map<string, QsoMarker[]> = new Map();
 
             lines.forEach(entry => {
                 const latMatch = entry.match(/<lat:[0-9]+>([NS])([0-9]+) ([0-9]+\.[0-9]+)/i);
@@ -194,18 +200,18 @@ class QsoMap extends HTMLElement {
                 if (lat !== 0 || lon !== 0) {
                     const callsign = callsignMatch ? callsignMatch[1] : 'Unknown';
 
-                    const isConfirmed = qslMatch;
+                    const isConfirmed = qslMatch != null;
                     const icon = isConfirmed ? greenIcon : yellowIcon;
 
-                    const marker = L.marker([lat, lon], { icon, isConfirmed})
+                    const marker = new QsoMarker([lat, lon], { icon, isConfirmed})
                         .bindPopup(`<b>${callsign}</b><br>Lat: ${lat.toFixed(4)}<br>Lon: ${lon.toFixed(4)}<br>Confirmed: ${isConfirmed ? 'Yes' : 'No'}`);
 
-                    const key = `${lat.toFixed(4)},${lon.toFixed(4)}`; 
+                    const key = `${lat.toFixed(4)},${lon.toFixed(4)}`;
                     if (!markerMap.has(key)) {
                         markerMap.set(key, []);
                     }
-                    
-                    markerMap.get(key).push(marker);
+
+                    markerMap.get(key)!.push(marker);
                 }
             });
 
@@ -214,7 +220,7 @@ class QsoMap extends HTMLElement {
                 if (markerList.length === 1) {
                     markerList[0].addTo(map);
                 } else {
-                    const icon = markerList.some(marker=>marker.options.isConfirmed) ? groupGreenIcon : yellowIcon;
+                    const icon = markerList.some(marker=>marker.isConfirmed) ? groupGreenIcon : yellowIcon;
                     const markerCluster = L.markerClusterGroup({iconCreateFunction: () => icon});
                     for(const item of markerList) {
                         markerCluster.addLayer(item)
@@ -225,5 +231,19 @@ class QsoMap extends HTMLElement {
         }
     }
 }
+
+interface CustomMarkerOptions extends L.MarkerOptions {
+    isConfirmed?: boolean;
+  }
+
+class QsoMarker extends L.Marker {
+    isConfirmed: boolean;
+
+    constructor(latlng: L.LatLngExpression, options: CustomMarkerOptions) {
+      super(latlng, options);
+      this.isConfirmed = options.isConfirmed ?? false;
+    }
+  }
+
 
 customElements.define("qso-map", QsoMap);
