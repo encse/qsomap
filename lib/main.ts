@@ -51,8 +51,9 @@ type State = {
   entries: QsoEntry[];
   modes: ReadonlySet<QsoMode>;
   bands: ReadonlySet<string>;
-  activeModes: ReadonlySet<QsoMode>;
-  activeBands: ReadonlySet<string>;
+  confirmationFilter: ReadonlySet<boolean>;
+  modeFilter: ReadonlySet<QsoMode>;
+  bandFilter: ReadonlySet<string>;
   callsign: string;
   hamburger: boolean;
 };
@@ -118,11 +119,12 @@ class QsoMap extends HTMLElement {
     const bands = new Set(qsoEntries.map(entry => entry.band))
     let state: State = {
       entries: qsoEntries,
+      callsign: callsign,
       modes: new Set(qsoModes),
       bands: new Set(bands),
-      activeModes: new Set(qsoModes),
-      activeBands: new Set(bands),
-      callsign: callsign,
+      confirmationFilter: new Set([true, false]),
+      modeFilter: new Set(qsoModes),
+      bandFilter: new Set(bands),
       hamburger: false,
     }
 
@@ -169,7 +171,7 @@ function renderMenu(state: State, update: Update) {
     div.style.borderRadius = '5px';
     div.style.display = 'flex';
     div.style.flexDirection = 'column';
-    div.style.alignItems = 'flex-start';
+    div.style.alignItems = 'flex-end';
     div.style.gap = '5px';
 
     L.DomEvent.disableClickPropagation(div);
@@ -200,18 +202,21 @@ function renderMenu(state: State, update: Update) {
     div.appendChild(topRow);
 
     const dropdown = document.createElement('div');
-    dropdown.style.display = 'none';
-    dropdown.style.flexDirection = 'column';
-    dropdown.style.gap = '5px';
-    dropdown.style.marginTop = '5px';
-    dropdown.style.transition = 'max-height 0.3s ease';
-    dropdown.style.overflow = 'hidden';
+    dropdown.style.backgroundColor = '#2c2f36';
+    dropdown.style.color = '#fff';
+    dropdown.style.padding = '1rem';
+    dropdown.style.borderRadius = '12px';
+    dropdown.style.width = '240px';
     dropdown.style.display = state.hamburger ? 'flex' : 'none';
+    dropdown.style.flexDirection = 'column';
+    dropdown.style.gap = '16px';
+    dropdown.style.boxShadow = '0 4px 20px rgba(0,0,0,0.2)';
 
     hamburger.addEventListener('click', () => {
       update({hamburger: !state.hamburger})
     });
 
+    dropdown.appendChild(renderConfirmationFilters(state, update));
     dropdown.appendChild(renderModeFilters(state, update));
     dropdown.appendChild(renderBandFilters(state, update));
 
@@ -228,62 +233,96 @@ function toggleInSet<T>(set: ReadonlySet<T>, value:T): ReadonlySet<T>  {
     : new Set([...set, value]);
 }
 
-function renderBandFilters(state: State, update: Update) {
-  const container = document.createElement("div");
-  container.style.display = 'flex';
-  container.style.flexDirection = 'column';
-  container.style.gap = '5px';
-  container.style.marginTop = '5px';
 
-  state.bands.forEach(band => {
-    const button = document.createElement("button");
-    button.textContent = band;
-    const active = state.activeBands.has(band)
-    button.style.opacity = active ? "1" : "0.1";
-    button.addEventListener("click", () => {
-      update({activeBands: toggleInSet(state.activeBands, band)});
-    });
-    container.appendChild(button);
+function makeSection(labelText: string, buttons: HTMLElement[]): HTMLElement {
+  const section = document.createElement('div');
+  section.style.display = 'flex';
+  section.style.flexDirection = 'column';
+
+  const label = document.createElement('div');
+  label.textContent = labelText;
+  label.style.fontWeight = 'bold';
+  label.style.marginBottom = '4px';
+
+  const btnGroup = document.createElement('div');
+  btnGroup.style.display = 'flex';
+  btnGroup.style.flexWrap = 'wrap';
+  btnGroup.style.gap = '8px';
+
+  buttons.forEach(btn => {
+    btnGroup.appendChild(btn);
   });
 
-  return container;
+  section.appendChild(label);
+  section.appendChild(btnGroup);
+  return section;
+}
+
+function makeButton(label: string, isActive: boolean = false): HTMLButtonElement {
+  const btn: HTMLButtonElement = document.createElement('button');
+  btn.textContent = label;
+  btn.style.padding = '8px 12px';
+  btn.style.borderRadius = '8px';
+  btn.style.border = '1px solid #555';
+  btn.style.cursor = 'pointer';
+  btn.style.transition = 'all 0.2s ease';
+  btn.style.background = isActive ? '#fff' : 'transparent';
+  btn.style.color = isActive ? '#2c2f36' : '#ccc';
+  btn.style.fontWeight = isActive ? 'bold' : 'normal';
+
+
+  return btn;
+}
+
+function renderBandFilters(state: State, update: Update) {
+  return makeSection("Bands",
+    [...state.bands].map(mode => {
+      const button = makeButton(mode, state.bandFilter.has(mode))
+      button.addEventListener("click", () => {
+        update({bandFilter: toggleInSet(state.bandFilter, mode)});
+      })
+      return button;
+    })
+  );
+}
+
+function renderConfirmationFilters(state: State, update: Update) {
+  return makeSection("Confirmed",
+    [true, false].map(confirmed => {
+      const label = confirmed ? "Yes" : "No";
+      const button = makeButton(label, state.confirmationFilter.has(confirmed))
+      button.addEventListener("click", () => {
+        update({confirmationFilter: toggleInSet(state.confirmationFilter, confirmed)});
+      })
+      return button;
+    })
+  );
 }
 
 function renderModeFilters(state: State, update: Update) {
-
-  const container = document.createElement("div");
-  container.style.display = 'flex';
-  container.style.flexDirection = 'column';
-  container.style.gap = '5px';
-  container.style.marginTop = '5px';
-
-  qsoModes.forEach(mode => {
-    const button = document.createElement('button');
-    button.textContent = mode;
-    button.style.background = '#333';
-    button.style.border = 'none';
-    button.style.color = 'white';
-    button.style.opacity = state.activeModes.has(mode) ? "1" : "0.1";
-
-    button.addEventListener("click", () => {
-      update({activeModes: toggleInSet(state.activeModes, mode)});
-    });
-
-    container.appendChild(button);
-  });
-  return container;
+  return makeSection("Modes",
+    qsoModes.map(mode => {
+      const button = makeButton(mode, state.modeFilter.has(mode))
+      button.addEventListener("click", () => {
+        update({modeFilter: toggleInSet(state.modeFilter, mode)});
+      })
+      return button;
+    })
+  );
 }
 
 function renderMarkers(state: State, update: Update) {
-
   const markerLayer = L.layerGroup();
-
   const allEntries = state.entries;
-  const modeFilter = state.activeModes;
-  const bandFilter = state.activeBands;
+  const confirmationFilter = state.confirmationFilter;
+  const modeFilter = state.modeFilter;
+  const bandFilter = state.bandFilter;
   const markerMap: Map<string, QsoMarker[]> = new Map();
 
-  allEntries.forEach(({lat, lon, callsign, isConfirmed, mode, band}) => {
+  allEntries.forEach(({lat, lon, callsign, isConfirmed, mode, band, date}) => {
+    if (!confirmationFilter.has(isConfirmed)) {
+      return;
+    }
     if (!modeFilter.has(mode)) {
       return;
     }
@@ -299,6 +338,7 @@ function renderMarkers(state: State, update: Update) {
       mode
     }).bindPopup(
       `<b>${callsign}</b><br>
+        Date: ${date}<br>
         Band: ${band}<br>
         Mode: ${mode}<br>
         `
@@ -405,6 +445,17 @@ function parseADIF(adifText: string): QsoEntry[] {
     const bandMatch = entry.match(/<band:[0-9]+>([A-Z0-9]+)/i);
     const band = bandMatch ? bandMatch[1].toUpperCase() : 'UNKNOWN';
 
+    const qsoDateMatch = entry.match(/<qso_date:[0-9]+>([0-9]{8})/i);
+    const qsoDateStr = qsoDateMatch ? qsoDateMatch[1] : null;
+    const qsoDate = qsoDateStr
+      ? new Date(
+        parseInt(qsoDateStr.slice(0, 4)),   // Year
+        parseInt(qsoDateStr.slice(4, 6)) - 1, // Month is 0-based
+        parseInt(qsoDateStr.slice(6, 8))    // Day
+      )
+      : null;
+    const qsoDateISO = qsoDate?.toISOString().split('T')[0];
+
     let lat = 0
     let lon = 0
     if (latMatch && lonMatch) {
@@ -426,7 +477,8 @@ function parseADIF(adifText: string): QsoEntry[] {
       const callsign = callsignMatch ? callsignMatch[1] : 'Unknown';
       const isConfirmed = qslMatch != null;
       const icon = isConfirmed ? greenIcon : yellowIcon;
-      result.push({lat, lon, callsign, isConfirmed, mode, band});
+      const date = qsoDateISO ?? "Unknown";
+      result.push({lat, lon, callsign, isConfirmed, mode, band, date});
     }
   });
 
@@ -444,6 +496,7 @@ interface QsoEntry {
   isConfirmed: boolean;
   mode: QsoMode;
   band: string;
+  date: string;
 }
 
 interface CustomMarkerOptions extends L.MarkerOptions {
