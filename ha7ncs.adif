@@ -23520,3 +23520,300 @@
 <time_on:4>1629
 <eor>
 
+<app_qrzlog_logid:10>1261756530
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:9>SO100IARU
+<cont:2>EU
+<country:6>Poland
+<cqz:2>15
+<distance:3>547
+<dxcc:3>269
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.148
+<freq_rx:5>7.148
+<gridsquare:6>KO02mg
+<ituz:2>28
+<lat:11>N052 16.250
+<lon:11>E021 02.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250421
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:59>The 95th anniversary of the PZK and centennial of the IARU 
+<qrzcom_qso_download_date:8>20250421
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250421
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250421
+<qso_date_off:8>20250421
+<qth:6>Warsaw
+<rst_rcvd:2>59
+<rst_sent:2>55
+<station_callsign:6>HA7NCS
+<time_off:4>0613
+<time_on:4>0613
+<eor>
+
+<app_qrzlog_logid:10>1261758874
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:6>IZ7NMD
+<cont:2>EU
+<country:5>Italy
+<cqz:2>15
+<distance:3>737
+<dxcc:3>248
+<email:16>iz7nmd@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.125
+<freq_rx:5>7.125
+<gridsquare:6>JN81ic
+<ituz:2>28
+<lat:11>N041 06.250
+<lon:11>E016 42.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250421
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:12>Priore Paolo
+<qrzcom_qso_download_date:8>20250421
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250421
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:33>VIA BUREAU - DIRECT - EQSL - LOTW
+<qso_date:8>20250421
+<qso_date_off:8>20250421
+<qth:22>70032 - Bitonto - BARI
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>0621
+<time_on:4>0621
+<eor>
+
+<app_qrzlog_logid:10>1261759968
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:6>IK6OSZ
+<cont:2>EU
+<country:5>Italy
+<cqz:2>15
+<distance:3>652
+<dxcc:3>248
+<email:25>saverio.formica@libero.it
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.164
+<freq_rx:5>7.164
+<gridsquare:8>JN63KO30
+<ituz:2>28
+<lat:11>N043 35.154
+<lon:11>E012 51.665
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250421
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:15>SAVERIO FORMICA
+<qrzcom_qso_download_date:8>20250421
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250421
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:13>DIRECT / EQSL
+<qso_date:8>20250421
+<qso_date_off:8>20250421
+<qth:18>61045 PERGOLA (PU)
+<rst_rcvd:2>58
+<rst_sent:2>58
+<station_callsign:6>HA7NCS
+<time_off:4>0627
+<time_on:4>0627
+<eor>
+
+<app_qrzlog_logid:10>1261760841
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:6>DL1GZH
+<cont:2>EU
+<country:7>Germany
+<distance:3>842
+<dxcc:3>230
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:4>7.16
+<freq_rx:4>7.16
+<gridsquare:6>JN37vt
+<lat:11>N047 47.744
+<lon:11>E007 49.778
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250421
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:16>Heinz Zimmermann
+<qrzcom_qso_download_date:8>20250421
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250421
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:47>No E-Qsl,Please via BÃ¼ro or direct &SAE, tnx !
+<qso_date:8>20250421
+<qso_date_off:8>20250421
+<qth:41>Kleines Wiesental-Neuenweg / Black Forest
+<rst_rcvd:2>55
+<rst_sent:2>55
+<station_callsign:6>HA7NCS
+<time_off:4>0635
+<time_on:4>0635
+<eor>
+
+<app_qrzlog_logid:10>1261985573
+<app_qrzlog_qsldate:8>20250421
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:6>IS0HMZ
+<comment:91>Thanks for the QSO Luca, I hope you can confirm it, you are my first contact from Sardinia!
+<cont:2>EU
+<country:8>Sardinia
+<cqz:2>15
+<distance:4>1220
+<dxcc:3>225
+<email:21>is0hmz.luca@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.195
+<freq_rx:6>14.195
+<gridsquare:6>JM49nf
+<iota:6>EU-024
+<ituz:2>28
+<lat:11>N039 14.312
+<lon:11>E009 07.593
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250421
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:9>Luca Mura
+<qrzcom_qso_download_date:8>20250421
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250421
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:16>Direct or e-mail
+<qso_date:8>20250421
+<qso_date_off:8>20250421
+<qth:8>Cagliari
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1246
+<time_on:4>1246
+<eor>
+
+<app_qrzlog_logid:10>1261989113
+<app_qrzlog_qsldate:8>20250421
+<app_qrzlog_status:1>C
+<band:3>20m
+<band_rx:3>20m
+<call:5>M7GBS
+<cont:2>EU
+<country:7>England
+<cqz:2>14
+<distance:4>1390
+<dxcc:3>223
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>14.25
+<freq_rx:5>14.25
+<gridsquare:6>JO02mf
+<ituz:2>27
+<lat:11>N052 13.752
+<lon:11>E001 02.520
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250421
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:13>DAVID HOCKLEY
+<qrzcom_qso_download_date:8>20250421
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250421
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250421
+<qso_date_off:8>20250421
+<qth:24>MENDLESHAM GREEN SUFFOLK
+<rst_rcvd:2>59
+<rst_sent:2>55
+<station_callsign:6>HA7NCS
+<time_off:4>1303
+<time_on:4>1303
+<eor>
+
