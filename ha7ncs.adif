@@ -25404,3 +25404,362 @@
 <tx_pwr:3>100
 <eor>
 
+<app_qrzlog_logid:10>1265733831
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:5>HA1ZW
+<comment:38>Roviden beszeltunk zavarokrol a 40m-en
+<cont:2>EU
+<country:7>Hungary
+<distance:3>186
+<dxcc:3>239
+<email:20>hamradio10@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.093
+<freq_rx:5>7.093
+<gridsquare:6>JN86jt
+<lat:11>N046 49.297
+<lon:11>E016 49.867
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250429
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:15>Josef Dombovari
+<qrzcom_qso_download_date:8>20250429
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250429
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250429
+<qso_date_off:8>20250429
+<qth:20>H-8900 Zalaegerszeg,
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1539
+<time_on:4>1539
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1265735568
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:9>LZ100IARU
+<cont:2>EU
+<country:8>Bulgaria
+<cqz:2>20
+<distance:3>675
+<dxcc:3>212
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.165
+<freq_rx:5>7.165
+<gridsquare:6>KN22dq
+<ituz:2>28
+<lat:11>N042 41.250
+<lon:11>E024 17.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250429
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:42>BFRA Bulgarian Federation of Radioamateurs
+<qrzcom_qso_download_date:8>20250429
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250429
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:17>via LZ QSL Bureau
+<qso_date:8>20250429
+<qso_date_off:8>20250429
+<qth:5>Sofia
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1600
+<time_on:4>1600
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1265735920
+<app_qrzlog_status:1>N
+<band:3>40m
+<band_rx:3>40m
+<call:7>II3IARU
+<cont:2>EU
+<country:5>Italy
+<distance:3>717
+<dxcc:3>248
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:5>7.145
+<freq_rx:5>7.145
+<gridsquare:6>JN62ks
+<lat:11>N042 46.250
+<lon:11>E012 52.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250429
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:27>IARU 100 Years Celebrations
+<qrzcom_qso_download_date:8>20250429
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250429
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250429
+<qso_date_off:8>20250429
+<qth:1>.
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1602
+<time_on:4>1602
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1265744908
+<app_qrzlog_qsldate:8>20250429
+<app_qrzlog_status:1>C
+<band:3>15m
+<band_rx:3>15m
+<call:6>5B4AIX
+<comment:94>Sorry, I got a phone call. Terribly sorry we couldnt talk... But you had a great signal indeed
+<cont:2>AS
+<country:6>Cyprus
+<cqz:2>20
+<distance:4>1787
+<dxcc:3>215
+<email:18>nozbryan@gmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>21.287
+<freq_rx:6>21.287
+<gridsquare:6>KM64EV
+<iota:6>AS-004
+<ituz:2>39
+<lat:11>N034 52.682
+<lon:11>E032 22.552
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250429
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:9>NOZ BRYAN
+<qrzcom_qso_download_date:8>20250429
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250429
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:45>DIRECT ONLY,OQRS, EQSL, LOTW, HRDLOG, QRZ.COM
+<qso_date:8>20250429
+<qso_date_off:8>20250429
+<qth:18>PEYIA, PAPHOS 8560
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1613
+<time_on:4>1613
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1265753916
+<app_qrzlog_qsldate:8>20250429
+<app_qrzlog_status:1>C
+<band:3>15m
+<band_rx:3>15m
+<call:5>RZ9YN
+<comment:184>I couldn't hear you that well, but only because there was some terrible QRM right in your call frequency. You probably know those 'bumps' in the band, I don't know the name for them...
+<cont:2>EU
+<country:6>Russia
+<cqz:2>18
+<distance:4>4240
+<dxcc:2>54
+<email:12>rz9yn@qrz.ru
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>21.318
+<freq_rx:6>21.318
+<gridsquare:6>MO92ws
+<ituz:2>31
+<lat:11>N052 46.049
+<lon:11>E079 51.252
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250429
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:19>Nickolay V. Meshkov
+<qrzcom_qso_download_date:8>20250429
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250429
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:20>VIA BUREAU OR DIRECT
+<qso_date:8>20250429
+<qso_date_off:8>20250429
+<qth:23>p. Stepnoe Ozero, Altai
+<rst_rcvd:2>55
+<rst_sent:2>55
+<station_callsign:6>HA7NCS
+<time_off:4>1629
+<time_on:4>1629
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1265771574
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>9H1XT
+<comment:99>Thanks a lot! Name is David (I was spelling it in a weird way) Super clear signal from Malta today.
+<cont:2>EU
+<country:5>Malta
+<cqz:2>28
+<distance:4>1346
+<dxcc:3>257
+<email:14>9h1xt@arrl.net
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.215
+<freq_rx:6>14.215
+<gridsquare:6>JM75gv
+<iota:6>EU-023
+<ituz:2>15
+<lat:11>N035 53.260
+<lon:11>E014 32.898
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250429
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:13>John Scicluna
+<qrzcom_qso_download_date:8>20250429
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250429
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:13>LOTW, Direct.
+<qso_date:8>20250429
+<qso_date_off:8>20250429
+<qth:7>XGHAJRA
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1701
+<time_on:4>1701
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1265777862
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:5>CU3HN
+<comment:98>Thanks! First QSO with Azores, and you heard me on the second try! Hope you can confirm this back.
+<cont:2>EU
+<country:6>Azores
+<cqz:2>14
+<distance:4>3825
+<dxcc:3>149
+<email:23>fabiocassis@hotmail.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.262
+<freq_rx:6>14.262
+<gridsquare:6>HM68jp
+<iota:6>EU-175
+<ituz:2>36
+<lat:11>N038 39.583
+<lon:11>W027 13.256
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250429
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:11>FABIO SILVA
+<qrzcom_qso_download_date:8>20250429
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250429
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:20>VIA DIRECT OR BUREAU
+<qso_date:8>20250429
+<qso_date_off:8>20250429
+<qth:35>9700-050 ANGRA DO HEROISMO - AZORES
+<rst_rcvd:2>59
+<rst_sent:2>57
+<station_callsign:6>HA7NCS
+<time_off:4>1739
+<time_on:4>1739
+<tx_pwr:3>100
+<eor>
+
