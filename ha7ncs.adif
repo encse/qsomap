@@ -20703,7 +20703,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1259337026
-<app_qrzlog_status:1>N
+<app_qrzlog_qsldate:8>20250601
+<app_qrzlog_status:1>C
 <band:3>20m
 <band_rx:3>20m
 <call:5>HA7TM
@@ -20719,8 +20720,9 @@
 <ituz:2>28
 <lat:11>N047 25.005
 <lon:11>E018 53.160
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250531
 <lotw_qslsdate:8>20250510
 <mode:3>FT8
 <my_city:3>Erd
@@ -28056,8 +28058,9 @@
 <ituz:2>28
 <lat:11>N050 08.748
 <lon:11>E013 17.520
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250524
 <lotw_qslsdate:8>20250524
 <mode:3>SSB
 <my_city:3>Erd
@@ -28682,7 +28685,8 @@
 <eor>
 
 <app_qrzlog_logid:10>1276155106
-<app_qrzlog_status:1>N
+<app_qrzlog_qsldate:8>20250601
+<app_qrzlog_status:1>C
 <band:3>40m
 <band_rx:3>40m
 <call:7>9A2GA/P
@@ -28699,8 +28703,9 @@
 <ituz:2>28
 <lat:11>N045 43.752
 <lon:11>E015 52.500
-<lotw_qsl_rcvd:1>N
+<lotw_qsl_rcvd:1>Y
 <lotw_qsl_sent:1>Y
+<lotw_qslrdate:8>20250601
 <lotw_qslsdate:8>20250525
 <mode:3>SSB
 <my_city:3>Erd
@@ -29119,6 +29124,153 @@
 <station_callsign:6>HA7NCS
 <time_off:4>0817
 <time_on:4>0817
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1279025990
+<app_qrzlog_status:1>N
+<band:3>10m
+<band_rx:3>10m
+<call:6>Z36V/P
+<cont:2>EU
+<country:29>North Macedonia (Republic of)
+<cqz:2>15
+<dxcc:3>502
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:4>28.5
+<freq_rx:4>28.5
+<ituz:2>28
+<lat:11>S000 00.000
+<lon:11>W000 00.000
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250601
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<qrzcom_qso_download_date:8>20250601
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250601
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250601
+<qso_date_off:8>20250601
+<rst_rcvd:2>57
+<rst_sent:2>55
+<station_callsign:6>HA7NCS
+<time_off:4>1110
+<time_on:4>1110
+<tx_pwr:2>75
+<eor>
+
+<app_qrzlog_logid:10>1279041309
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:6>9A5EAT
+<cont:2>EU
+<country:7>Croatia
+<cqz:2>15
+<distance:3>496
+<dxcc:3>497
+<email:19>andreas@duessler.de
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.209
+<freq_rx:6>14.209
+<gridsquare:6>JN83hj
+<iota:6>EU-016
+<ituz:2>28
+<lat:11>N043 23.748
+<lon:11>E016 37.500
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250601
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:13>Andy Duessler
+<qrzcom_qso_download_date:8>20250601
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250601
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qso_date:8>20250601
+<qso_date_off:8>20250601
+<qth:22>Splitska - Island Brac
+<rst_rcvd:2>57
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1216
+<time_on:4>1216
+<tx_pwr:3>100
+<eor>
+
+<app_qrzlog_logid:10>1279042388
+<app_qrzlog_status:1>N
+<band:3>20m
+<band_rx:3>20m
+<call:6>YO7MPD
+<cont:2>EU
+<country:7>Romania
+<cqz:2>20
+<distance:3>415
+<dxcc:3>275
+<email:16>yo7mpd@yahoo.com
+<eqsl_qsl_rcvd:1>N
+<eqsl_qsl_sent:1>N
+<freq:6>14.241
+<freq_rx:6>14.241
+<gridsquare:6>KN15oc
+<ituz:2>28
+<lat:11>N045 06.295
+<lon:11>E023 11.915
+<lotw_qsl_rcvd:1>N
+<lotw_qsl_sent:1>Y
+<lotw_qslsdate:8>20250601
+<mode:3>SSB
+<my_city:3>Erd
+<my_country:7>Hungary
+<my_cq_zone:2>15
+<my_gridsquare:6>JN97mm
+<my_iota:4>none
+<my_itu_zone:2>28
+<my_lat:11>N047 31.032
+<my_lon:11>E019 04.336
+<my_name:18>David Nemeth-csoka
+<name:13>PETRE VASIOIU
+<qrzcom_qso_download_date:8>20250601
+<qrzcom_qso_download_status:1>Y
+<qrzcom_qso_upload_date:8>20250601
+<qrzcom_qso_upload_status:1>Y
+<qsl_rcvd:1>N
+<qsl_sent:1>N
+<qsl_via:20>VIA BUREAU OR DIRECT
+<qso_date:8>20250601
+<qso_date_off:8>20250601
+<qth:9>Jud. GORJ
+<rst_rcvd:2>59
+<rst_sent:2>59
+<station_callsign:6>HA7NCS
+<time_off:4>1220
+<time_on:4>1220
 <tx_pwr:3>100
 <eor>
 
