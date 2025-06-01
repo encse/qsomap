@@ -27846,16 +27846,18 @@
 <cont:2>EU
 <country:15>Slovak Republic
 <cqz:2>15
+<distance:3>142
 <dxcc:3>504
 <eqsl_qsl_rcvd:1>N
 <eqsl_qsl_sent:1>N
 <freq:5>7.093
 <freq_rx:5>7.093
+<gridsquare:6>jn98rs
 <ituz:2>28
-<lat:11>S000 00.000
-<lon:11>W000 00.000
+<lat:11>N048 46.248
+<lon:11>E019 27.480
 <lotw_qsl_rcvd:1>N
-<lotw_qsl_sent:1>Y
+<lotw_qsl_sent:1>N
 <lotw_qslsdate:8>20250524
 <mode:3>SSB
 <my_city:3>Erd
